@@ -1,0 +1,263 @@
+
+
+	.content-hidden, .login-hidden {
+	  display: none;
+	}
+aside { background-color: black;
+color: white; }
+
+body {
+
+	background-color: #ffe6f2 !important;	
+}
+
+
+
+main {
+
+	width: 1100px;
+	background-color: #ff99cc;
+	margin: auto; 
+    padding: 20px;
+	height: auto;
+	font-family: monospace;
+	font-size: 20px;
+	text-align: justify;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+footer {
+	width: 1100px;
+	height: 20px;
+	margin: auto;
+	padding: 10px 20px 30px 20px;
+
+}
+
+
+h2 {
+	padding: 40px 20px 40px 20px;
+}
+
+h3 {
+	font-weight: bold !important;
+	
+}
+
+p {
+	padding: 0px 20px 10px 20px;
+}
+
+article {
+	padding: 10px 20px 10px 20px;
+	font-size: 22px;
+	text-align: left;
+}
+
+li {
+	margin: 10px;
+}
+
+#scroll {
+	text-align: right;
+	font-size: 24px;	
+	margin-left: 99%;
+}
+
+#lesson-head {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#spaced-bullet-points {
+	line-height: 1.4;
+}
+
+
+/* Intro  */
+
+		#intro {
+			padding-top: 10px;
+			
+		}
+
+		#intro-heading {
+			padding: 20px 20px 0px 20px ;
+		}
+
+		#videoplaceholder {
+			color: white;
+			margin: auto;
+			width: 1024px;
+			height: 576px;
+			background-color: blue;
+		}
+
+		#intro-images {
+			width: 1000px;
+			height: auto;
+			margin: auto;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+
+/* Task 1 */
+
+		#task-one {
+			background-color: 	#D3D3D3;
+		}
+
+		#news-words {
+			width: 800px;
+			margin: auto;
+			padding: 20px 0px 40px 0px;
+		}
+
+    	.imgBox {
+    		margin-top: 60px;
+    		
+	      height: 550px;
+	      margin-right: auto;
+	      margin-left: auto;
+	      background: url(orangemindmap.png) no-repeat;
+	      background-size: 950px;
+	      background-position: center;
+	      width: 950px;
+   	 	}
+    	.imgBox:hover {
+    		margin-top: 60px;
+    		
+	      height: 550px;
+	      background: url(greenmindmap.png) no-repeat;
+	      background-size: 950px;
+	      background-position: center;
+	      margin-right: auto;
+	      margin-left: auto;
+	      width: 950px;
+    	}
+
+/* Task 2 */
+
+		#task-two {
+			background-color: #D3D3D3;
+		}
+
+/* Shot Sizes */
+
+		#framing-heights {
+		width: 700px;
+		margin: auto;
+		}
+
+/* Camera angles */
+
+/* Storyboarding */
+
+		#michelson-storyboard {
+			text-align: center;
+			padding-top: 20px;
+		}
+
+/* Camera movements */
+
+
+/* Hitchcock text */
+
+		#Hitchcock {
+			width: 600px;
+			padding-bottom: 50px;
+		}
+
+/* Task three */
+
+		#task-three {
+			background-color: white;
+		}
+
+/* Filming with a smartphone */
+
+#spacer-padding {
+	padding-top: 60px;
+}
+
+#filmmaking-materials {
+	width: 1100px;
+	margin: auto;
+	padding: 20px 0px 30px 0px ;
+}
+
+#filming-ratio {
+	width: 400px;
+	height: auto;
+	float: left;
+	padding-top: 60px;
+}
+
+#mobile-filming{
+	width: auto;
+	height: 310px;
+	float: right;
+	padding-top: 60px;
+}
+
+#SMARTPHONE-FILMING-TECHNIQUES {
+	clear: both;
+	padding-top: 60px;
+}
+
+/* Task four */
+
+#task-four {
+	background-color: white;
+}
+
+#speach-bubble {
+	padding: 80px 0px 30px 0px;
+	width: 300px;
+	margin-left: 50%
+}
+#voice-memo {
+	width: 150px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+/* extension task*/
+
+#extension-task {
+	background-color: white;
+}
+
+/* goodbye*/
+
+#hand-phone {
+	width: 400px;
+	height: auto;
+	float: left;
+	padding-top:;
+}
+
+#final-message {
+
+	width: 600px;
+	height: 80px;
+	float: right;
+	padding-top:;
+	background-color: white;
+
+}
+
+
+
+
