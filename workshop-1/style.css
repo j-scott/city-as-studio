@@ -197,21 +197,18 @@ li {
 }
 
 #filming-ratio {
-	width: 400px;
-	height: auto;
-	float: left;
-	padding-top: 60px;
+	width: 600px;
+	margin: auto;
+	padding-top: 30px;
 }
 
 #mobile-filming{
-	width: auto;
-	height: 310px;
-	float: right;
-	padding-top: 60px;
+	width: 800px;
+	margin: auto;
+	padding-top: 40px;
 }
 
 #SMARTPHONE-FILMING-TECHNIQUES {
-	clear: both;
 	padding-top: 60px;
 }
 
