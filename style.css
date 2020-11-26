@@ -10,6 +10,8 @@ header {
 }
 
 nav {
+	width: 170px;
+	margin: auto;
 
 }
 
@@ -23,6 +25,7 @@ footer {
 
 a {
 	color: blue;
+
 }
 
 a:hover {
