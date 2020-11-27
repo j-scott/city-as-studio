@@ -14,7 +14,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
  
  <script src="javascript.js"></script> 
-  
+
+ <!-- mouseover video start stop 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>-->
+<!-- mouseover video start stop -->
+   <script src="https://player.vimeo.com/api/player.js"></script>
 </head>
 
 <body>
@@ -66,9 +70,39 @@
 					<p>From shot sizes to camera angles, this workshop will introduce you to the rules of filmmaking. Following a guided series of digitally led activities you will deconstruct moving image practices and develop your own narratives using objects and the environment around you.  
 					</p>
 				 	
-				 	<div id="videoplaceholder"> Intro Video</div>
-				</section>
+				 	<div id="videoplaceholder">Temp video<br></div> </section>
+				 	<aside>just some testing from me :)</aside>
+				 		autoplays (may "flash" for some) <iframe src="https://player.vimeo.com/video/484224595?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				 		<br>
+				 		This one autoplays (no "flash")<iframe src="https://player.vimeo.com/video/484224595?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" style="background-image: url(test.png);background-size: 640px 360px;"width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				 		<br>
+				 		Normal video with loop<iframe src="https://player.vimeo.com/video/484224595?loop=1&title=0&byline=0&portrait=0&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				 		<br>
+				 		This one doesn't loop<iframe src="https://player.vimeo.com/video/484224595?loop=0&title=0&byline=0&portrait=0&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+<br>
+                       <div class="videorr" >
+                              <iframe class="videorr" id="rr" src="https://player.vimeo.com/video/484224595?title=0&byline=0&portrait=0&autopause=0&background=1&autoplay=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                              <br>
+                              hover over me ^^
+                          </div>
+
+                          <script>
+                              /**
+                               * Vimeo autoplay
+                               */ 
+
+                             jQuery('#rr').mouseover(function () {
+                                  var vplayer = jQuery("#" + this.id);
+                                  player = new Vimeo.Player(vplayer[0].id);
+                                  player.play();
+
+                                  vplayer.mouseout(function () {         
+                                      player.unload();
+                                  });
+                              });
+
+                          </script>
 		
 				<div id="scroll">
 								<br>
@@ -89,6 +123,7 @@
 								︾
 								<br>
 				</div>
+	 
 
 <article>
 The goal of this workshop will be to produce a series of experimental shots for a film by using a mobile phone. 
