@@ -82,6 +82,10 @@ li {
 	line-height: 1.4;
 }
 
+#spacer-padding {
+	padding-top: 60px;
+}
+
 
 /* Intro  */
 
@@ -110,6 +114,15 @@ li {
 			padding-bottom: 10px;
 		}
 
+/* goals */
+
+#goals {
+	padding: 30px 0px 20px 0px;
+	background-color: white;
+}
+
+/* intro-to-collage */
+
 
 /* Task 1 */
 
@@ -117,34 +130,8 @@ li {
 			background-color: 	#D3D3D3;
 		}
 
-		#news-words {
-			width: 800px;
-			margin: auto;
-			padding: 20px 0px 40px 0px;
-		}
 
-    	.imgBox {
-    		margin-top: 60px;
-    		
-	      height: 550px;
-	      margin-right: auto;
-	      margin-left: auto;
-	      background: url(orangemindmap.png) no-repeat;
-	      background-size: 950px;
-	      background-position: center;
-	      width: 950px;
-   	 	}
-    	.imgBox:hover {
-    		margin-top: 60px;
-    		
-	      height: 550px;
-	      background: url(greenmindmap.png) no-repeat;
-	      background-size: 950px;
-	      background-position: center;
-	      margin-right: auto;
-	      margin-left: auto;
-	      width: 950px;
-    	}
+/* artist-using-text */
 
 /* Task 2 */
 
@@ -152,31 +139,8 @@ li {
 			background-color: #D3D3D3;
 		}
 
-/* Shot Sizes */
+/* Stopmotion lesson */
 
-		#framing-heights {
-		width: 700px;
-		margin: auto;
-		}
-
-/* Camera angles */
-
-/* Storyboarding */
-
-		#michelson-storyboard {
-			text-align: center;
-			padding-top: 20px;
-		}
-
-/* Camera movements */
-
-
-/* Hitchcock text */
-
-		#Hitchcock {
-			width: 600px;
-			padding-bottom: 50px;
-		}
 
 /* Task three */
 
@@ -184,56 +148,10 @@ li {
 			background-color: white;
 		}
 
-/* Filming with a smartphone */
 
-#spacer-padding {
-	padding-top: 60px;
-}
+/* homework*/
 
-#filmmaking-materials {
-	width: 1100px;
-	margin: auto;
-	padding: 20px 0px 30px 0px ;
-}
-
-#filming-ratio {
-	width: 600px;
-	margin: auto;
-	padding-top: 30px;
-}
-
-#mobile-filming{
-	width: 800px;
-	margin: auto;
-	padding-top: 40px;
-}
-
-#SMARTPHONE-FILMING-TECHNIQUES {
-	padding-top: 60px;
-}
-
-/* Task four */
-
-#task-four {
-	background-color: white;
-}
-
-#speach-bubble {
-	padding: 80px 0px 30px 0px;
-	width: 300px;
-	margin-left: 50%
-}
-#voice-memo {
-	width: 150px;
-	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 20px;
-}
-
-
-/* extension task*/
-
-#extension-task {
+#homework {
 	background-color: white;
 	padding: 5px 10px 0px 10px;
 }
