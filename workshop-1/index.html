@@ -69,8 +69,12 @@
 					<h2 id="intro-heading">Intro:</h2>
 					<p>From shot sizes to camera angles, this workshop will introduce you to the rules of filmmaking. Following a guided series of digitally led activities you will deconstruct moving image practices and develop your own narratives using objects and the environment around you.  
 					</p>
-				 	
-				 	<div id="videoplaceholder">Temp video<br></div> </section>
+				 	 <div id="videoplaceholder">
+				 	<iframe src="https://player.vimeo.com/video/484514192?title=0&byline=0&portrait=0" width="1024" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				 	</div>
+
+				 </section>
+<br>
 				 	<aside>just some testing from me :)</aside>
 				 		autoplays (may "flash" for some) <iframe src="https://player.vimeo.com/video/484224595?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 				 		<br>
@@ -126,13 +130,14 @@
 	 
 
 <article>
-The goal of this workshop will be to produce a series of experimental shots for a film by using a mobile phone. 
+The goal of this workshop will be to produce a series of experimental video shots for a film by using a mobile phone. 
 <br><br>
-You have each been given your own Zine (a DIY pamphlet) to complete your workshop tasks in across this project. These will not only be very helpful to keep your ideas in one place, but will act as documentation for your arts awards too!
+You have each been given your own Zine (a DIY pamphlet) to complete your workshop tasks in across this whole project. These will not only be very helpful to keep your ideas in one place, but will act as documentation for your Arts Awards too!
 <br><br>
-We don't expect you to be video professionals and want today to be a chance for you to experiment and learn. So don't be worried if you arent satisfied with your results at this stage.
+We don't expect you to be video professionals yet! Today is just a chance for you to experiment with, and learn about, filmmaking while considering yourself as a "Citizen of the Universe". So don't be worried if you arent satisfied with your results at this stage.
 <br><br>
-In our final workshop (Workshop 3) we will be putting what you have learnt into action by creating a more realised film which we hope you will be proud of!</article>
+In our final workshop (Workshop 3) we will be putting what you have learnt into action by creating a more realised film which we hope you will be proud of!
+</article>
 
 				<div id="scroll">
 								<br>
@@ -179,7 +184,7 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 
 				
 				<div id="intro-images">
-						<img id="intro-images" src="Climate.png" alt="">
+						<img id="intro-images" src="Climate.png" alt="Climate Change Warning: News images of forest fire, drought, flooding and melting ice.">
 				</div>
 
 				<div id="scroll">
@@ -203,7 +208,7 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 				</div>
 
 				<div id="intro-images">
-						<img id="intro-images" src="Covid.png" alt="">
+						<img id="intro-images" src="Covid.png" alt="BBC news alert that COVID-19 cases reaching 1.5 million cases worldwide.">
 				</div>
 
 				<div id="scroll">
@@ -227,7 +232,7 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 				</div>
 
 				<div id="intro-images">
-						<img id="intro-images" src="Brexit.png" alt="">
+						<img id="intro-images" src="Brexit.png" alt="Headline: What is Boris Johnson's new Brexit deal?">
 				</div>
 
 				<div id="scroll">
@@ -251,7 +256,7 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 				</div>
 
 				<div id="intro-images">
-						<img id="intro-images" src="BLM.png" alt="">
+						<img id="intro-images" src="BLM.png" alt="Black lives matter protestors taking a knee.">
 				</div>
 
 				<div id="scroll">
@@ -285,18 +290,14 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 
 
 					<div id="news-words">
-						<img id="news-words" src="news-words.jpg" alt=""> 
+						<img id="news-words" src="news-words.jpg" alt="Example of a news article about lockdown with key words highlighted in pen."> 
 					</div>
 
 					<p><b>Pt. 2 </b> - Stick the articles in your Zine and add your keywords to your mind map. </p>
 
-					<div class="imgBox" title="INSERT-ALT-TEXT"></div>  
-
+					<div class="imgBox" title="Mind-map examples"></div>  
 
 					<br><br><br>
-					
-<!--
-					<img id="" src="newspaper.png" alt="">-->
 
 				</section>
 
@@ -329,14 +330,38 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 
 					<br>
 
+					<div id="object-carosel">
+					        <img class="mySlides" src="fist.png" alt="clenched fist (protest)" style="width:400px; height:400px">
+					        <img class="mySlides" src="clock.png" alt="clock" style="width:400px; height:400px">
+					        <img class="mySlides" src="mask.png"  alt="medical facemask" style="width:400px; height:400px">
+					        <img class="mySlides" src="flags.png" alt="British and EU flags" style="width:400px; height:400px">
+					        <img class="mySlides" src="waste.png" alt="'waste' paper bin." style="width:250px; height:400px">
+    				 </div>
+					 <script>
+						   	var myIndex = 0;
+						  	carousel();
+						  	function carousel() {
+						    var i;
+						    var x = document.getElementsByClassName("mySlides");
+						    for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						    }
+						    myIndex++;
+						    if (myIndex > x.length) {myIndex = 1}    
+						    x[myIndex-1].style.display = "block";  
+						    setTimeout(carousel, 5000); // Change image every 5 seconds
+						  	}
+					  </script>
+
+
 					<ul><u>For example:</u>
 					<li>Covid-19 Pandemic – facemask, sanitizer, measuring tape, Shoe</li> 
-					<li>The Environment/Climate Change – Rubbish/Litter/ tree/plants/leaves/twigs/Umbrella</li>
+					<li>The Environment/Climate Change – Rubbish/Litter/tree/plants/leaves/twigs/Umbrella</li>
 					<li>Black Lives Matter – Book, Placard/sign, Phone, Fist</li>
 					<li>Brexit – money/change, flag, stars, clock, scissors</li>
 					</ul>
 
-					<p><br><br><br>IMAGES coming soon! carosel maybe</p>
+					<br><br>
 
 				</section>
 
@@ -415,7 +440,7 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 
 				<iframe src="https://giphy.com/embed/Eb6dSj9RbMOGIj5ER0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Eb6dSj9RbMOGIj5ER0">via GIPHY</a></p>
 
-				<div id="framing-heights"><img id="framing-heights" src="shot-sizes.png"></div>
+				<div id="framing-heights"><img id="framing-heights" src="shot-sizes.png" alt=""></div>
 
 				<h3>Camera Angles:</h3>
 
@@ -454,7 +479,7 @@ In our final workshop (Workshop 3) we will be putting what you have learnt into 
 								<br>
 				</div>
 
-				<article> Before looking at some more camera techinques we are going to take a break to learn about how we can plan a film that combines multiple shots...	
+				<article> Before looking at even more camera techinques we are going to take a break to learn about how we can plan a film that combines multiple shots...	
 				</article>
 
 				<div id="scroll">

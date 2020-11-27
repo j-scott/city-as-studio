@@ -57,7 +57,7 @@ p {
 }
 
 article {
-	padding: 10px 20px 10px 20px;
+	padding: 20px 20px 10px 20px;
 	font-size: 22px;
 	text-align: left;
 }
@@ -95,11 +95,11 @@ li {
 		}
 
 		#videoplaceholder {
-			color: white;
-			margin: auto;
+			
 			width: 1024px;
-			height: 576px;
-			background-color: blue;
+			padding-top: 10px;
+			margin: auto;
+			
 		}
 
 		#intro-images {
@@ -151,6 +151,15 @@ li {
 		#task-two {
 			background-color: #D3D3D3;
 		}
+
+#object-carosel {
+	margin:  150px 0px 100px 0px;
+}
+		.mySlides {
+  width: 400px;
+  position: relative;
+  margin: auto;
+}
 
 /* Shot Sizes */
 
