@@ -49,6 +49,7 @@ h2 {
 
 h3 {
 	font-weight: bold !important;
+	text-decoration: underline; 
 	
 }
 
@@ -187,10 +188,47 @@ li {
 			padding-bottom: 50px;
 		}
 
+/* billboard-test */
+#billboard-test {
+	background-color: #ffe6f2;
+}
+
+#test {
+	width: 850px;
+	margin: auto;
+	padding: 40px 10px 30px 10px;
+	background-color: #D3D3D3;
+}
+
+    	.billboard {
+    		margin-top: 60px;
+    		
+	      height: 550px;
+	      margin-right: auto;
+	      margin-left: auto;
+	      background-color: blue;
+	      /*background: url() no-repeat;*/
+	      background-size: 950px;
+	      background-position: center;
+	      width: 950px;
+   	 	}
+    	.billboard:hover {
+    		margin-top: 60px;
+    		
+	      height: 550px;
+	      background-color: red;
+	      /*background: url() no-repeat;*/
+	      background-size: 950px;
+	      background-position: center;
+	      margin-right: auto;
+	      margin-left: auto;
+	      width: 950px;
+    	}
+
 /* Task three */
 
 		#task-three {
-			background-color: white;
+			background-color: #D3D3D3;
 		}
 
 /* Filming with a smartphone */
@@ -265,6 +303,57 @@ li {
 	background-color: white;
 
 }
+
+#gif-section {
+	clear: both;
+padding-top: 200px
+}
+
+#gif-right {
+	float: right;
+	padding-right: 20px;
+}
+
+#gif-text-left {
+	float: left;
+	width: 370px;
+	height: 360px;
+	background-color: #ffe6f2;
+	text-align: center;
+}
+
+#gif-left {
+	float: left;
+}
+
+#gif-text-right {
+	float: right;
+	width: 370px;
+	height: 360px;
+	margin-right: 20px;
+	background-color: #ffe6f2;
+	text-align: center;
+}
+
+
+
+h4 {
+	font-size: 22px !important;
+	font-weight: bold !important;
+	padding: 40px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
