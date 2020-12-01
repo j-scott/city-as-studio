@@ -125,8 +125,9 @@ li {
 /* goals */
 
 #goals {
-	padding: 30px 0px 20px 0px;
-	background-color: white;
+	margin-top: 30px;
+	padding: 30px 0px 10px 0px;
+	background-color: #ffdfbf;
 }
 
 /* intro-to-collage */
