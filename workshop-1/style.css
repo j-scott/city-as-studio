@@ -83,7 +83,6 @@ li {
 	line-height: 1.4;
 }
 
-
 /* Intro  */
 
 		#intro {
@@ -153,22 +152,45 @@ li {
 			background-color: #D3D3D3;
 		}
 
-#object-carosel {
-	margin:  150px 0px 100px 0px;
-}
-		.mySlides {
-  width: 400px;
-  position: relative;
-  margin: auto;
-}
+		#object-carosel {
+			margin:  150px 0px 100px 0px;
+		}
+				.mySlides {
+		  width: 400px;
+		  position: relative;
+		  margin: auto;
+		}
 
 /* Shot Sizes */
 
-		#framing-heights {
-		width: 700px;
-		margin: auto;
+		#hover-text {
+			color: red;
 		}
 
+/* lenses */
+		#lenses {
+			clear: both;
+			background-color: white;
+			margin: 700px 0px 400px 0px;
+			padding: 30px 10px 50px 10px;
+
+		}
+
+    	#fish-eye {
+    	
+    		padding: 0px;
+	        height: 450px;
+	        margin: auto;
+	        text-align: center;
+   	 	}
+    	#macro {
+    		
+    		
+	      height: 450px;
+	      text-align: center;      
+	      margin-left: 30px;
+	      
+    	}
 /* Camera angles */
 
 /* Storyboarding */
@@ -189,16 +211,16 @@ li {
 		}
 
 /* billboard-test */
-#billboard-test {
-	background-color: #ffe6f2;
-}
+		#billboard-test {
+			background-color: #ffe6f2;
+		}
 
-#test {
-	width: 850px;
-	margin: auto;
-	padding: 40px 10px 30px 10px;
-	background-color: #D3D3D3;
-}
+		#test {
+			width: 850px;
+			margin: auto;
+			padding: 40px 10px 30px 10px;
+			background-color: #D3D3D3;
+		}
 
     	.billboard {
     		margin-top: 60px;
@@ -233,115 +255,124 @@ li {
 
 /* Filming with a smartphone */
 
-#spacer-padding {
-	padding-top: 60px;
-}
+		#spacer-padding {
+			padding-top: 60px;
+		}
 
-#filmmaking-materials {
-	width: 1100px;
-	margin: auto;
-	padding: 20px 0px 30px 0px ;
-}
+		#dot-bubble {
+			text-align: right;
+			padding: 60px 80px 20px 0px;
+		}
+		#filmmaking-materials {
+			width: 1100px;
+			margin: auto;
+			padding: 40px 0px 40px 0px ;
+		}
 
-#filming-ratio {
-	width: 600px;
-	margin: auto;
-	padding-top: 30px;
-}
+		#filming-ratio {
+			width: 600px;
+			margin: auto;
+			padding-top: 30px;
+		}
 
-#mobile-filming{
-	width: 800px;
-	margin: auto;
-	padding-top: 40px;
-}
+		#mobile-filming{
+			width: 800px;
+			margin: auto;
+			padding-top: 40px;
+		}
 
-#SMARTPHONE-FILMING-TECHNIQUES {
-	padding-top: 60px;
-}
+		#SMARTPHONE-FILMING-TECHNIQUES {
+			padding-top: 60px;
+		}
 
 /* Task four */
 
-#task-four {
-	background-color: white;
-}
+		#task-four {
+			background-color: white;
+		}
 
-#speach-bubble {
-	padding: 80px 0px 30px 0px;
-	width: 300px;
-	margin-left: 50%
-}
-#voice-memo {
-	width: 150px;
-	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 20px;
-}
+		#speach-bubble {
+			padding: 80px 0px 30px 0px;
+			width: 300px;
+			margin-left: 50%
+		}
+		#voice-memo {
+			width: 150px;
+			margin: auto;
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
 
 
-/* extension task*/
+/* post production*/
 
-#extension-task {
-	background-color: white;
-	padding: 5px 10px 0px 10px;
-}
+		#app-icons {
+			width: 110px;
+
+		}
+		#extension-task {
+			margin-top: 100px;
+			background-color: white;
+			padding: 5px 10px 10px 10px;
+		}
 
 /* goodbye*/
 
-#hand-phone {
-	width: 400px;
-	height: auto;
-	float: left;
-	padding-top:;
-}
+		#hand-phone {
+			width: 400px;
+			height: auto;
+			float: left;
+			padding-top:;
+		}
 
-#final-message {
+		#final-message {
 
-	width: 600px;
-	height: 80px;
-	float: right;
-	padding-top:;
-	background-color: white;
+			width: 600px;
+			height: 530px;
+			float: right;
+			padding-top:;
+			background-color: white;
 
-}
+		}
 
-#gif-section {
-	clear: both;
-padding-top: 200px
-}
+/* camera technique gifs*/
 
-#gif-right {
-	float: right;
-	padding-right: 20px;
-}
+		#gif-section {
+			clear: both;
+			padding-top: 200px
+		}
 
-#gif-text-left {
-	float: left;
-	width: 370px;
-	height: 360px;
-	background-color: #ffe6f2;
-	text-align: center;
-}
+		#gif-right {
+			float: right;
+			padding-right: 20px;
+		}
 
-#gif-left {
-	float: left;
-}
+		#gif-text-left {
+			float: left;
+			width: 370px;
+			height: 360px;
+			background-color: #ffe6f2;
+			text-align: center;
+		}
 
-#gif-text-right {
-	float: right;
-	width: 370px;
-	height: 360px;
-	margin-right: 20px;
-	background-color: #ffe6f2;
-	text-align: center;
-}
+		#gif-left {
+			float: left;
+		}
 
+		#gif-text-right {
+			float: right;
+			width: 370px;
+			height: 360px;
+			margin-right: 20px;
+			background-color: #ffe6f2;
+			text-align: center;
+		}
 
-
-h4 {
-	font-size: 22px !important;
-	font-weight: bold !important;
-	padding: 40px 0px 20px 0px;
-}
+		h4 {
+			font-size: 22px !important;
+			font-weight: bold !important;
+			padding: 40px 0px 20px 0px;
+		}
 
 
 
