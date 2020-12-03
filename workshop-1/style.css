@@ -67,6 +67,14 @@ li {
 	margin: 10px;
 }
 
+a {
+	color: blue !important;
+}
+
+a:hover {
+	color: red !important;
+}
+
 #scroll {
 	text-align: right;
 	font-size: 30px;	
@@ -110,6 +118,14 @@ li {
 			padding-bottom: 10px;
 		}
 
+/*Ruth-Asawa*/
+#ruth-asawa {
+	padding: 20px 10px 20px 15px;
+	background-color: #ffe6f2; 
+}
+#Ruth-Asawa-Voice-Note {
+	padding: 80px 0px 100px 100px;
+}
 
 /* Task 1 */
 
@@ -171,7 +187,7 @@ li {
 		#lenses {
 			clear: both;
 			background-color: white;
-			margin: 700px 0px 400px 0px;
+			margin: 700px 0px 0px 0px;
 			padding: 30px 10px 50px 10px;
 
 		}
@@ -278,11 +294,11 @@ li {
 		#mobile-filming{
 			width: 800px;
 			margin: auto;
-			padding-top: 40px;
+			padding-top: 60px;
 		}
 
 		#SMARTPHONE-FILMING-TECHNIQUES {
-			padding-top: 60px;
+			padding-top: 150px;
 		}
 
 /* Task four */
@@ -292,7 +308,7 @@ li {
 		}
 
 		#speach-bubble {
-			padding: 80px 0px 30px 0px;
+			padding: 100px 0px 50px 0px;
 			width: 300px;
 			margin-left: 50%
 		}
@@ -320,18 +336,19 @@ li {
 
 		#hand-phone {
 			width: 400px;
-			height: auto;
+			height: 410px;
 			float: left;
 			padding-top:;
 		}
 
 		#final-message {
 
-			width: 600px;
-			height: 530px;
+			width: 640px;
+			height: 410px;
 			float: right;
 			padding-top:;
 			background-color: white;
+			padding-top: 15px;
 
 		}
 
