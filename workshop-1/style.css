@@ -228,8 +228,8 @@ li {
 	      height: 550px;
 	      margin-right: auto;
 	      margin-left: auto;
-	      background-color: blue;
-	      /*background: url() no-repeat;*/
+	      
+	      background: url(billboard_empty.png) no-repeat;
 	      background-size: 950px;
 	      background-position: center;
 	      width: 950px;
@@ -238,8 +238,8 @@ li {
     		margin-top: 60px;
     		
 	      height: 550px;
-	      background-color: red;
-	      /*background: url() no-repeat;*/
+	      
+	      background: url(billboard-school.png) no-repeat;
 	      background-size: 950px;
 	      background-position: center;
 	      margin-right: auto;
