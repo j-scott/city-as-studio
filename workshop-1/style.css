@@ -60,6 +60,9 @@ footer {
 
 }
 
+h1 {
+	font-weight: normal;
+}
 
 h2 {
 	padding: 40px 20px 40px 20px;
@@ -109,6 +112,12 @@ figcaption {font-size: 18px;}
 
 #spaced-bullet-points {
 	line-height: 1.4;
+}
+
+#timeframe {
+	text-align: right;
+	padding-bottom: 15px;
+	padding-top: 100px;
 }
 
 /* Intro  */
@@ -273,7 +282,7 @@ figcaption {font-size: 18px;}
 		#test {
 			width: 850px;
 			margin: auto;
-			padding: 40px 10px 30px 10px;
+			padding: 35px 10px 30px 10px;
 			background-color: #D3D3D3;
 		}
 
@@ -343,7 +352,7 @@ figcaption {font-size: 18px;}
 /* Task four */
 
 		#task-four {
-			background-color: white;
+			background-color: #D3D3D3;
 		}
 
 		#speach-bubble {
@@ -367,7 +376,7 @@ figcaption {font-size: 18px;}
 		}
 		#extension-task {
 			margin-top: 100px;
-			background-color: white;
+			background-color: #D3D3D3;
 			padding: 5px 10px 10px 10px;
 		}
 

@@ -12,9 +12,9 @@
 <!--
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
  <!-- <script src="javascript.js"></script> -->
 
 
@@ -30,54 +30,32 @@
 
 <body>
 
-<!-- PASSWORD	
+<!-- PASSWORD	-->
 
-		<div class="container centered">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4 col-xs-12">
+		<!--
+		<div id="passw">
+		    <div>
+		        
+		        Password required:
+		        <br><br>
+		    </div>
 
-		 			<form name="login" class="well" style="position:absolute;top:150px;">
-						
-						<div class="form-group">
-							<label>Enter Password: <span class="small">(<em>password</em>)</span></label>
-							<input name="pass" size="6" type="password" class="form-control" placeholder="Password" required>
-		 				</div>
-						<input value="Login" onclick="pasuser(this.form)" type="button" class="btn btn-default">
-						
-						<br><br>
-
-						Make sure you click "login" with mouse!
-					</form>
-
-		  		</div>
-
-			</div>
-
+		    <div>
+		    
+		        <input type="password" id="password" placeholder="Password" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" /> 
+		        
+		        <br><br>
+		        
+		        <input id="button" type="button" value="Login" onclick="if (document.getElementById('password').value == 'cas'){ document.getElementById('hiddendiv').style.display='block'; document.getElementById('passw').style.display='none'; } else { alert('Invalid Password!'); password.setSelectionRange(0, password.value.length); }" />
+		    </div>
+		            
 		</div>
-	-->
-
-<div id="passw">
-    <div>
-        
-        Password required:
-        <br><br>
-    </div>
-
-    <div>
-    
-        <input type="password" id="password" placeholder="Password" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" /> <!-- IMPORTANT! this part is so if you click enter, it works. -->
-        
-        <br><br>
-        
-        <input id="button" type="button" value="Login" onclick="if (document.getElementById('password').value == 'cas'){ document.getElementById('hiddendiv').style.display='block'; document.getElementById('passw').style.display='none'; } else { alert('Invalid Password!'); password.setSelectionRange(0, password.value.length); }" />
-    </div>
-            
-</div>
+-->
 
 
 
 
- <main id="hiddendiv"> <!--INSERT:  class="hidden hiddenStuff" INTO "MAIN" -->
+ <main > <!--INSERT:  id="hiddendiv" INTO "MAIN" -->
 
 	<header>
 				<h1>Workshop 1: <br> <b>The Language of Film</b>
@@ -92,7 +70,7 @@
 
 				<section id="intro">
 					<h2 id="intro-heading">Intro:</h2>
-					<p>From shot sizes to camera angles, this workshop will introduce you to the rules of filmmaking. Following a guided series of digitally led activities you will deconstruct moving image practices and develop your own narratives using objects and the environment around you.  
+					<p>From shot sizes to camera angles, this workshop will introduce you to the rules of filmmaking. Following a guided series of digitally led activities, you will deconstruct moving image practices and develop your own narratives by using the environment and objects around you.  
 					</p>
 				 	 <div id="videoplaceholder">
 				 	<iframe src="https://player.vimeo.com/video/484514192?title=0&byline=0&portrait=0" width="1024" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -110,20 +88,20 @@
 			</div>
 
 				<article>
-				<p>The goal of this workshop will be to produce a series of experimental video shots for a film by using a mobile phone. 
+				<p><b>The goal of this workshop will be to produce a series of experimental video shots for a film by using a mobile phone. 
+				</b></p>
+				<p>You have each been given your own Zine (a DIY pamphlet) to complete workshop tasks in across the project over the next few weeks. These will not only be very helpful to keep your ideas all in one place, but will act as documentation for your Arts Awards too!
 				</p>
-				<p>You have each been given your own Zine (a DIY pamphlet) to complete your workshop tasks in across this whole project over the next few weeks. These will not only be very helpful to keep your ideas in one place, but will act as documentation for your Arts Awards too!
-				</p>
-<aside>did we want a bit on why we are using a Zine (conceptually?)</aside>
+
 				<p>
-				Everything you will need for this workshop has been arranged with your tutors and you can collect these items when required to do so throughtout the workshop. (Therefore no need for a rush to grab the tripods!)
+				Everything that you will need for this workshop has already been arranged with your tutors, you can collect these items when required to do so throughtout the workshop (so no need for a sudden rush to grab the tripods!)
 				</p>
-				<p>By the way, we don't expect you to be video professionals yet! Today is just a chance for you to experiment with, and learn about, filmmaking, while considering yourself as a "Citizen of the Universe". So don't be worried if you aren't satisfied with your results at this stage.
+				<p>By the way, we don't expect you to be video professionals yet! Today is just a chance for you to experiment with (and learn about) filmmaking, while considering yourself as a "Citizen of the Universe". So don't be worried if you aren't satisfied with your results at this stage.
 				</p>
-				<p>In our third and final workshop you will come to join us at Modern Art Oxford for an intensive workshop, where you will be putting what you have learnt into action by creating a more realised film which we hope you will be proud of!
+				<p>In our third and final workshop you will come to join us at Modern Art Oxford for an intensive collaborative workshop, you will then put everything you have learnt into action by creating a more realised film that we hope you will be proud of!
 				</p>
 				</article>
-<aside>long so maybe a soundfile too? - a bonus feature to add at the end perhaps</aside>
+<aside>Soundfile once text okayed.</aside>
 
 			<div id="scroll">
 				<br>
@@ -138,21 +116,22 @@
 
 
 
+<!-- Ruth awasa image
+			<div>
+									
+									<div id="S-228">
+				<img id="S-228" src="S-228.jpg" alt="">
+				</div>
+				
 
-<div style="clear: both;">
-						
-						<div id="S-228">
-	<img id="S-228" src="S-228.jpg" alt="">
-	</div>
-	
-
-					<div id="#S-228-caption">Ruth Asawa, <i>Untitled</i> (S.228, Hanging Six-Lobed, Discontinuous Surface (3 sections) with an Interlocked Top Section), c. 1956.
-	<br><br>
-	&copy; The Estate of Ruth Asawa / Artists Rights Society (ARS), New York.
-	<br>
-	Courtesy The Estate of Ruth Asawa and David Zwirner. 
-	</div>
-</div>
+								<div id="#S-228-caption">Ruth Asawa, <i>Untitled</i> (S.228, Hanging Six-Lobed, Discontinuous Surface (3 sections) with an Interlocked Top Section), c. 1956.
+				<br><br>
+				&copy; The Estate of Ruth Asawa / Artists Rights Society (ARS), New York.
+				<br>
+				Courtesy The Estate of Ruth Asawa and David Zwirner. 
+				</div>
+			</div>
+-->
 
 			<div id="scroll" style="clear: both;">
 				<br>
@@ -277,8 +256,10 @@
 					<p><b>Pt. 2 </b> - Stick the articles in your Zine and add your keywords to your mind map. </p>
 
 					<div class="imgBox" title="Mind-map examples"></div>  
-
-					<br><br><br>
+					
+					<p id="timeframe">
+					<span style="background-color: yellow;">&nbsp;Guide time to complete this task: <b>5-10 mins</b>&nbsp;</span>
+					</p>
 
 				</section>
 
@@ -296,12 +277,10 @@
 				<section id="task-two">
 					<h2>Task 2: object collection</h2>
 					<p>Find an object or a series of objects that relate to your concerns outlined in your response to the first task.</p>
-					
-<aside>Add a activity timeframe? (i.e 5 mins)</aside>
+				
 					<br>
 					<p><b>**Hint**</b> Think of things that are close to hand, you can't go to the shops so be creative and resourceful with what's around you!</p>
 
-					<br>
 
 					<div id="object-carosel">
 					        <img class="mySlides" src="fist.png" alt="clenched fist (protest)" style="width:400px; height:400px">
@@ -328,13 +307,15 @@
 
 
 					<ul><u>For example:</u>
-					<li>Covid-19 Pandemic – facemask, sanitizer, measuring tape, Shoe</li> 
-					<li>The Environment/Climate Change – Rubbish/Litter/tree/plants/leaves/twigs/Umbrella</li>
-					<li>Black Lives Matter – Book, Placard/sign, Phone, Fist</li>
-					<li>Brexit – money/change, flag, stars, clock, scissors</li>
+					<li>Covid-19 Pandemic: facemask, sanitizer, measuring tape, shoe.</li> 
+					<li>The Environment/Climate Change: rubbish/litter, tree, plants, leaves/twigs, umbrella.</li>
+					<li>Black Lives Matter: book, placard/sign, phone, fist.</li>
+					<li>Brexit: money/change, flag, stars, clock, scissors.</li>
 					</ul>
 
-					<br><br>
+					<p id="timeframe">
+					<span style="background-color: yellow;">&nbsp;Guide time to complete this task: <b>5-10 mins</b>&nbsp;</span>
+					</p>
 
 				</section>
 
@@ -358,7 +339,7 @@
 				<br>
 			</div>
 
-				<article>Let's now take some time in this next section to look through some of the various filming techniques before going ahead to plan your own shots in the next task... 
+				<article>Let's now take some time in the next section to look through some of the various filming techniques before you go ahead to plan your own shots in the next task... 
 					<br><br>
 				<p>
 				(Oh and sorry we got a bit carried away with the filters from giphy.com whilst making the examples)
@@ -380,7 +361,7 @@
 						<div id="gif-text-left">
 							<br>
 							<h4>Very Long Shot (VLS)</h4>
-							Introduces us to the world (the classroom/City/Landscape)
+							Introduces us to the world (the classroom/city/L=landscape)
 							<br><br><br>
 							<span id="hover-text">Hover over image --></span>
 						</div>
@@ -478,7 +459,7 @@
 						When using the different shot sizes that we have just been through it is as possible to use various lenses to make the the visual effect more pronounced.
 					</p>
 					<p>
-						The two images below show a Very Long Shot (VLS) using a fish-eye lens that captures a large area and a Close Up shot using a macro lens with a short focal length. This creates a huge contrast between the shot sizes.
+						For example: the images below show a Very Long Shot (VLS) using a fish-eye lens that captures a large area, and a Close Up shot using a macro lens with a short focal length. This creates a huge contrast between the shot sizes.
 					</p>
 					<br>
 
@@ -537,7 +518,6 @@
 	<!--High Angle Position 485568460-->
 				<div id="gif-section">
 						<div id="gif-text-left">
-							<br>
 							<h4>High Angle Position</h4>
 							The Camera is above the subject, looking down.
 							<br><br>
@@ -568,11 +548,11 @@
 							The changing of horizontal and vertical into diagonal lines creates a dynamic composition.
 						</div>
 						<div id="gif-right">
-							<iframe src="https://player.vimeo.com/video/485466794?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" style="background-image: url(dutch.png);background-size: 640px 360px;"
+							<iframe  style="background-image: url(dutch.png);background-size: 640px 360px;"
 							width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 						</div>
 				</div>
-		<aside>flashing image - should we remove this one?</aside>
+		<aside>removed video for now until updated as it flashes too much</aside>
 	<!--Over The Shoulder (OTS)-->
 				<div id="gif-section">
 						<div id="gif-left">
@@ -623,19 +603,17 @@
 				<section id="storyboards">
 					<h2 id="lesson-head"><b>Storyboarding</b></h2>
 
-<aside>				<div>
+					<div>
 						<h3>What is a Storyboard?</h3>
 						
 							<ul>
-								<li></li>
-
-								<li></li>
-
-								<li></li>
+								<li>A storyboard is set of drawings  that plan the narrative of a film or performance.  
+								</li>
 							</ul>					
 					</div>
 
-</aside>	
+					<br>
+
 					<div>
 						<h3>What does a Storyboard do?</h3>
 						
@@ -649,7 +627,7 @@
 					</div>
 
 					<figure id="michelson-storyboard"> <img id="michelson-storyboard" src="storyboard.png" alt=""> 
-					<figcaption><i>The Birds</i>, 1963 Director: Alfred Hitchcock, Storyboards: Harold Michelson</figcaption>
+					<figcaption><i>The Birds</i>, 1963 Director: Alfred Hitchcock, Storyboards by Harold Michelson</figcaption>
 					</figure> 
 
 
@@ -696,9 +674,9 @@
 	<!--Tilt-->
 				<div id="gif-section">
 						<div id="gif-text-left">
-							<br><br>
+							<br>
 							<h4>Tilt</h4>
-							Used to show the vertical space often hidden by the portrait framing.
+							Used to show the vertical space often hidden by the landscape framing of films.
 
 						</div>
 						<div id="gif-right">
@@ -718,7 +696,7 @@
 							<h4>Tracking Shot</h4>
 							The Camera is moved to follow the action. 
 							<br><br>
-							Often the camera is mounted on wheels or a rail track. Skateboards or bikes work too (even use your hand if it's a small track!) 
+							Often the camera is mounted on wheels or a rail track. Skateboards or bikes work too (even use your hand if it's a small distance!) 
 
 						</div>
 				</div>
@@ -798,9 +776,9 @@
 					<h2>The Billboard Test: <b>What's your digital footprint?</b></h2>
 
 					<p>By this point you are probably ready to jump into the process of creating your own films, however, there is just one more thing that we need to run through...</p>
-	<aside>long text could have sound file too? - again maybe an if i have time activity!</aside>
+	<aside>Audio file pending</aside>
 					<div id="test">
-					<p>You wil be creating digital content that is suited to being posted on the internet's many digital platforms.</p>
+					<p>You will be creating digital content that is suited to being posted on the internet's many digital platforms.</p>
 					<p><b>Before posting anything online, you should always think about:</b></p>
 					<ul>
 						<li>Who might see it - both now and in the future?</li>
@@ -811,7 +789,7 @@
 					<p>If you wouldn't want it to appear on a roadside billboard for all to see, it's probably not a good idea to share it online!</p>
 					</div>
 					<br>
-					<p>I'm bringing this up now so you can bare this in mind as you plan your films - this means that you will be able to spread your message as a "Citizen of the Universe" safely :)</p>
+					<p>I'm bringing this up now so you can bare this in mind as you plan your films - this means that you will be able to spread your message as a "Citizen of the Universe" safely if you choose too :)</p>
 					<br><br>
 					<p><b>What would you share on the billboard below?</b></p>
 
@@ -838,9 +816,9 @@
 
 					<aside>(kate's storyboard example is coming here)</aside>
 
-					<p><b>**Note**</b> Remember to use the lists of shot sizes, movements and angles to create a dynamic visual experience for the viewer.</p> 
+					<p><b>**Note**</b> Remember to use the shot sizes and camera movements/angles that we have looked at to create a more dynamic visual experience for the viewer. A list of all of them is below!</p> 
 
-			
+			<br>
 
 					<ul><u>Shot Sizes:</u>
 					<li>Very Long Shot</li>
@@ -867,7 +845,11 @@
 					<li>Zoom</li>
 					<li>Pull Focus</li>
 					</ul>
-<br><br>
+
+					<p id="timeframe">
+					<span style="background-color: yellow;">&nbsp;Guide time to complete this task: <b>15-20 mins</b>&nbsp;</span>
+					</p>
+
 				</section>
 
 
@@ -881,7 +863,7 @@
 			</div>
 
 				<article>
-				Now we've planned our shots we need to think about the equipment avaible to us today to make them become a reality!
+				Now that we've planned our shots we need to think about the equipment avaible to us today to make them become a reality!
 				</article>
 
 			<div id="scroll">
@@ -901,7 +883,7 @@
 
 					<p id="spacer-padding">Nowadays there isn't the need for expensive cameras for filmmaking. Instead, most of us have a mobile phone in our pocket 24/7 that is always primed to record our experiences.</p>
 					 
-					<p id="spacer-padding">You most likey already record with your phone with apps such as TikTok or Instagram... In order for us to make our art films however, we are going to refine our videography with a mix of techniques and equiptment that will result in a more professional finish.</p>
+					<p id="spacer-padding">You most likey already record with your phone with apps such as TikTok or Instagram... To make our art films look more sophisticated than everyday filming, we are going to refine our videography with a mix of techniques and equiptment that will result in a more professional finish.</p>
 
 					<div id="dot-bubble">
 						<img src="dotbubble.png">
@@ -919,10 +901,10 @@
 					<br></p>
 					
 					<p>
-						For the task today you don't need to film every shot on your storyboard, so you can let someone else have a go after a couple shots. If you find the equiptment is all in use already you can help others and they can help you back!
+						For the next and final task today you don't need to film every shot on your storyboard, this means that you can let someone else have a go after a couple shots if there is demand for the equiptment. If you find the equiptment is all in use already, you can help the others and they can help you back!
 					</p> 
 					<p>
-						Exchanging ideas while you help each other will also mean you learn more from the experience!
+						Exchanging ideas while you help each other will also mean you learn more from today's experience.
 					</p>
 
 					
@@ -939,15 +921,15 @@
 					<p>
 		
 					<ol id="spaced-bullet-points">
-					<li>Film Horizontally - if you film holding the smartphone vertically you will get black bars on both sides of the image when editing it in order to make up for the wide screen format:(</li>
+					<li>Film Horizontally - if you film holding the smartphone vertically you will get black bars on both sides of the image when editing it later :(</li>
 					<br>
-					<li>Check the background noise (both audio and visual). This could be in the form of someones discussion ruining your audio track or someone eating a sandwich in the back of your shot.</li> 
+					<li>Check the background noise (both audio and visual). This could be in the form of someones discussion ruining your audio track, or someone eating a sandwich in the back of your shot.</li> 
 					<br>
 					<li>Put your phone on airplane mode so things don't pop up and make sounds/distract you from filming.</li>
 					<br>
 					<li>Use some tape to keep your phone in place when in its holder if necessary. 	WE DON'T WANT SMASHED PHONES TODAY!</li>
 					<br>
-					<li>Film your scene longer than is required of the scene to give you more space when it comes to editing later.</li>
+					<li>Film your scene slightly longer than required to give you more space when it comes to editing later.</li>
 					</ol>
 
 					</p>
@@ -1061,9 +1043,9 @@
 					<br>
 					<p>Use a free app to make some quick edits to your clips and turn them into short films based off your storyboards.</p>
 
-					<p>If you don't have time left in your session you can always try this in your own time after.</p>
+					<p>If you don't have time left in your session, you can always try this in your own time after.</p>
 
-					<p>Note: take a photo of your storyboard if you are handing the Zine back into your teachers at the end of the session and fear that you may forget your plans!</p>
+					<p><b>Note:</b> take a photo of your storyboard if you are handing the Zine back into your teachers at the end of the session and fear that you may forget your plans!</p>
 					</div>
 					<br>
 
@@ -1094,7 +1076,7 @@
 								<li><a href="#task-one">Relevant articles stuck into your Zine and keywords added to your mind maps.</a> </li>
 								
 								<li><a href="#task-two">Choosen objects written down???</a> </li>
-								<li><a href="#task-three">Storyboard completed.</a> </li>
+								<li><a href="#task-three">Completed Storyboard.</a> </li>
 								<li><a href="#task-four">Screenshots from filming stuck into Zine.</a></li>
 							</ol>
 						
@@ -1105,7 +1087,7 @@
 				
 
 					<div style="clear: both; padding-top: 30px; text-align: center;">
-						<p style="background-color:#ffe6f2; padding-top: 10px">You can access this site from home or another time using the link and password provided to revisit any of the lessons/tasks in your own time!</p>
+						<p style="background-color:#ffe6f2; padding-top: 10px">You can access this site from home (or another time) using the link and password provided to revisit any of the lessons/tasks in your own time!</p>
 					</div>
 
 
