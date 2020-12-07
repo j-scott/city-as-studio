@@ -64,16 +64,34 @@ p {
 #bulletpoints {
 	margin: auto;
 	text-align: left;
-	max-width: 1140px}
+	max-width: 1140px;
+}
 
 
 
-#meet-the-team {
-	width: 475px;
-	height:700px;
-	background-color: orange;
-	margin: auto;
+#meet-the-team-left {
+	width: 300px;
+	height:400px;
+	background-color: orange;	
 	text-align: center;
+	float: left;
+	margin: 10px;
+}
+#meet-the-team-center {
+	width: 300px;
+	height:400px;
+	background-color: orange;
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
+#meet-the-team-right {
+	width: 300px;
+	height:400px;
+	background-color: orange;
+	text-align: center;
+	float: left;
+	margin: 10px;
 }
 
 h1 {
