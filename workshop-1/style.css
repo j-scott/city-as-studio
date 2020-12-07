@@ -1,8 +1,26 @@
 
+        #hiddendiv {
+            display: none;
+        }
 
+        #passw {
+            margin: auto;
+            margin-top: 40vh;
+            padding: 30px 50px 35px 50px;
+            width: 220px;
+            background-color: pink;
+            font-family: monospace;
+            outline-width: 2px;
+            outline-color: black;
+            outline-style: solid;
+            font-size: 20px;
+
+        }
+/*
 	.content-hidden, .login-hidden {
 	  display: none;
 	}
+*/
 aside { background-color: black;
 color: white; }
 

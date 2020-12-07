@@ -7,13 +7,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta name="robots" content="noindex">
 
+
 	<!-- Bootstrap CDN -->
+<!--
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
- 
- <script src="javascript.js"></script> 
+-->
+ <!-- <script src="javascript.js"></script> -->
+
+
+
+
+
 
  <!-- mouseover video start stop 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>-->
@@ -48,10 +55,29 @@
 
 		</div>
 	-->
-	
+
+<div id="passw">
+    <div>
+        
+        Password required:
+        <br><br>
+    </div>
+
+    <div>
+    
+        <input type="password" id="password" placeholder="Password" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" /> <!-- IMPORTANT! this part is so if you click enter, it works. -->
+        
+        <br><br>
+        
+        <input id="button" type="button" value="Login" onclick="if (document.getElementById('password').value == 'cas'){ document.getElementById('hiddendiv').style.display='block'; document.getElementById('passw').style.display='none'; } else { alert('Invalid Password!'); password.setSelectionRange(0, password.value.length); }" />
+    </div>
+            
+</div>
 
 
- 	<main> <!--INSERT:  class="hidden hiddenStuff" INTO "MAIN" -->
+
+
+ <main id="hiddendiv"> <!--INSERT:  class="hidden hiddenStuff" INTO "MAIN" -->
 
 	<header>
 				<h1>Workshop 1: <br> <b>The Language of Film</b>
@@ -1083,12 +1109,12 @@
 					</div>
 
 
-	</main>
+</main>
 
-
+<!--
 	<footer>
 				Whatever footer info we want to put in			
-	</footer>
+	</footer> -->
 
 </body>
 
