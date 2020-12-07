@@ -75,6 +75,8 @@ a:hover {
 	color: red !important;
 }
 
+figcaption {font-size: 18px;}
+
 #scroll {
 	text-align: right;
 	font-size: 30px;	
@@ -119,12 +121,31 @@ a:hover {
 		}
 
 /*Ruth-Asawa*/
+
+
+
+		#S-228 {
+			width: ;
+			height: 800px;
+		
+			padding-top:;
+		}
+
+
 #ruth-asawa {
 	padding: 20px 10px 20px 15px;
 	background-color: #ffe6f2; 
 }
 #Ruth-Asawa-Voice-Note {
 	padding: 80px 0px 100px 100px;
+}
+
+#Ruth_studio {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	text-align: center;
 }
 
 /* Task 1 */
