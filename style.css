@@ -46,6 +46,9 @@ p {
 	max-width: 1140px
 }
 
+ul li {
+	padding-bottom: 7px;
+}
 
 #paragraphs {margin: auto;
 	text-align: justify;
@@ -64,7 +67,7 @@ p {
 #bulletpoints {
 	margin: auto;
 	text-align: left;
-	max-width: 1140px;
+	max-width: 800px;
 }
 
 

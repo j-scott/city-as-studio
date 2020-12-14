@@ -317,6 +317,11 @@ figcaption {font-size: 18px;}
 			background-color: #D3D3D3;
 		}
 
+		#example-storyboard {
+			width: 1000px;
+			padding: 0px 30px 50px 30px;
+		}
+
 /* Filming with a smartphone */
 
 		#spacer-padding {
@@ -364,7 +369,6 @@ figcaption {font-size: 18px;}
 			width: 150px;
 			margin: auto;
 			padding-top: 10px;
-			padding-bottom: 20px;
 		}
 
 
@@ -392,7 +396,7 @@ figcaption {font-size: 18px;}
 		#final-message {
 
 			width: 640px;
-			height: 410px;
+			height: 400px;
 			float: right;
 			padding-top:;
 			background-color: white;
