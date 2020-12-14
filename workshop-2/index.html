@@ -7,48 +7,33 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta name="robots" content="noindex">
 
-	<!-- Bootstrap CDN -->
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
- 
- <script src="javascript.js"></script> 
   
 </head>
 
 <body>
 
-<!-- PASSWORD	
-
-		<div class="container centered">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4 col-xs-12">
-
-		 			<form name="login" class="well" style="position:absolute;top:150px;">
-						
-						<div class="form-group">
-							<label>Enter Password: <span class="small">(<em>password</em>)</span></label>
-							<input name="pass" size="6" type="password" class="form-control" placeholder="Password" required>
-		 				</div>
-						<input value="Login" onclick="pasuser(this.form)" type="button" class="btn btn-default">
-						
-						<br><br>
-
-						Make sure you click "login" with mouse!
-					</form>
-
-		  		</div>
-
-			</div>
-
-		</div>
-	-->
+<!-- PASSWORD -->
 	
+		<div id="passw">
+		    <div>    
+		        <B>WORKSHOP 2:</B><span style="font-size: 18px;"> (password required)</span>
+		        <br><br>
+		    </div>
+
+		    <div>
+		    
+		        <input type="password" id="password" placeholder="Password" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" /> 
+		        
+		        <br><br>
+		        
+		        <input id="button" type="button" value="Login" onclick="if (document.getElementById('password').value == 'cas'){ document.getElementById('hiddendiv').style.display='block'; document.getElementById('passw').style.display='none'; } else { alert('Invalid Password!'); password.setSelectionRange(0, password.value.length); }" />
+		    </div>           
+		</div>
 
 
- 	<main> <!--INSERT:  class="hidden hiddenStuff" INTO "MAIN" -->
-<aside>&nbsp;NOTE FROM JAMES: Text in this format is a note from me to think about :)</aside>
+
+ 	<main id="hiddendiv"> <!--INSERT:  id="hiddendiv" INTO "MAIN" -->
 
 	<header>
 				<h1>Workshop 2: <br> <b>Text and Image - Creating Meaning </b>
@@ -63,7 +48,7 @@
 
 				<section id="intro">
 					<h2 id="intro-heading">Intro:</h2>
-					<p>In this workshop you will explore filmmaking and storytelling though image and text, taking inspiration from artists using newspapers, everyday objects and found online content. You will discover how to create new meaning and connections though creative processes and arts activism to consider what it means to be a citizen of the universe.  
+					<p>In this workshop you will explore filmmaking and storytelling though image and text, taking inspiration from artists using newspapers, everyday objects and found online content. You will discover how to create new meanings and connections though creative processes and arts activism to consider what it means to be a citizen of the universe.  
 					</p>
 				 	
 				 	<div id="main-video"> 
@@ -77,7 +62,23 @@
 								&#10597; <br><br><br><br>
 								&#10597; <br><br><br><br>
 								&#10597; <br><br><br><br>
-								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
+
+				<section id="goals">
+				<p><b>The goal of this workshop will be to produce a stop motion film that articulates your message as a "Citizen of the Universe".</b>
+				</p>
+				<p>Remember to use your zine from last week to complete your workshop tasks in to build a record of your ideas. (You may find it useful to look back over your themes from last week.)
+				</p>
+				<p>Also remember that we don't expect you to be video professionals yet, this workshop remains a chance for you to experiment and learn. So don't be worried if you aren't totally satisfied with your results today. 
+				</p>
+				<p>In our next and final intensive workshop at Modern Art Oxford (Workshop 3) we will be putting what you have learnt into action by creating a final collaborative film!
+				</p>
+				</section>
+
+				<div id="scroll">
+								<br>
 								&#10597; <br><br><br><br>
 								&#10597; <br><br><br><br>
 								&#10597; <br><br><br><br>
@@ -85,99 +86,54 @@
 								<br>
 				</div>
 
-<aside>"Stop Motion" or "Stop motion"</aside>
-
-				<section id="goals">
-				<p>The goal of this workshop will be to produce a Stop Motion film that articulates your message as a "Citizen of the Universe".
-				</p>
-				<p>As last week, remember to use your Zine to complete your workshop tasks in to build a record of your ideas. (You may find it useful to look over your themes from last week!)
-				</p>
-				<p>Also remember that we don't expect you to be video professionals yet and this workshop remains a chance for you to experiment and learn. So don't be worried if you aren't totally satisfied with your results today. 
-				</p>
-				<p>In our next and final workshop (Workshop 3) we will be putting what you have learnt over these two workshops into action by creating a final collaborative film!
-				</p>
-				</section>
-
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
-
 				<section id="intro-to-collage">
 
-					<h2 id="lesson-head"><b>Intro to collage - artist video examples</b></h2>
-
-						<h3>key points</h3>
-							<ul>
-								<li></li>
-								<li></li>
-								<li> </li>
-							</ul>					
-					</div>
-
-					<div id="videoplaceholder"> </div>
-	
-					<div>
-
-					<br><br><br>
+					<h2 id="lesson-head">Lesson 1:<span style="font-weight: normal;"> Artist Using Collage, Found Footage and the Internet</span></h2>
+					<br>
+					<div id="main-video"> <iframe src="https://player.vimeo.com/video/487996005?title=0&byline=0&portrait=0" width="1024" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+				
+				<br>
 					
 
 				</section>
 
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
 				<section id="task-one">
-					<h2>Task 1: object collection</h2>
-					<p>Get news papers, magazines and objects and cut out images and text that link to your concepts and concerns from Workshop 1. </p>
-					
-					<p>
-						<aside>should participants be told to bring any objects relating to their key themes from the previous workshop to this one? would be nice if they have a more robust set of subject matter perhaps?</aside>
+					<h2>Task 1: Subject Matter Collection</h2>
+					<p><b>Pt.I</b> Cut out new images and text from news papers and magazines that link to your concepts and concerns from Workshop 1. (If you would like to change theme that is also ok.) </p>
+
+<div id="daily-news">
+	<img id="daily-news" src="daily-news.png" alt="">
+</div>
+					<p><b>Pt.II</b> Gather objects relating to your theme as you did in the last workshop to use later! (You may stick with the same objects or add to your ideas.)</p>
+
+					<p id="timeframe">
+					<span style="background-color: yellow;">&nbsp;Guide time to complete this task: <b>5-10 mins</b>&nbsp;</span>
+					</p>
 
 				</section>
 
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
 				<section id="artist-using-text">
 					
-					<h2 id="lesson-head"><b>Artist using text:</b></h2>
-
-						<h3>key points</h3>
-							<ul>
-								<li></li>
-								<li></li>
-								<li> </li>
-							</ul>					
-					</div>
+					<h2 id="lesson-head">Lesson 2:<span style="font-weight: normal;"> Artists Using Text</span></h2>
+					<br>
 
 					<div id="main-video"> <iframe src="https://player.vimeo.com/video/486150956?title=0&byline=0&portrait=0" width="1024" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 	
@@ -185,73 +141,67 @@
 
 				</section>
 
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
 				<section id="task-two">
 					<h2>Task 2: Make a Placard!</h2>
-					<br>
-<p>Take inspiration from the artists you have been shown and create a placard stating your message as a citizen of the universe.
-<aside>using what materials</aside>
-</p>
-					<br><br>
+					
+					<p>Take inspiration from the artists you have been shown today (or others that interest you) and create a placard stating your message as a citizen of the universe.
+					</p>
+					
+					<div id="placard">
+						<img id="placard" src="BLM.png" alt="Example of black lives matter placards.">
+					</div>
 
+					<p>Your tutor has all the materials you need to make your placard. Get creative!</p>
+
+					<p id="timeframe">
+					<span style="background-color: yellow;">&nbsp;Guide time to complete this task: <b>10-15 mins</b>&nbsp;</span>
+					</p>
 
 				</section>
 
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
-<article>
-	You now have your placard and a collection of objects/articles and keywords that will be the subject matter for your stopmotion films today!
-	<br><br> 
-	The following lesson looks at how to make this style of filmmaking effectively!
-</article>
+				<article>
+					You now have a placard, a collection of objects and articles, and keywords that will be the content for your stop motion films today.
+					<br><br> 
+					The following lesson will show you how to master this style of filmmaking before going ahead to make your own!
+				</article>
 				
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
 				<section id="stopmotion-lesson">
 
-					<h2 id="lesson-head">How to make a stopmotion film</h2>
+					<h2 id="lesson-head">Lesson 2:<span style="font-weight: normal;"> How to make a Stop Motion Film</span></h2>
+					<br>
 
-					<h3>What is a stopmotion film?</h3>
+					<h3>What is a Stop Motion Film?</h3>
 
-							<ul>
-								<li></li>
-								<li></li>
-								<li> </li>
-							</ul>	
+							<p>
+								Stop motion filming is where objects are moved or manipluated between still (photographed) frames. This creates the effect of movement when the frames are played back. 
+							</p>	
 
 					<div id="main-video">
 				 		<iframe src="https://player.vimeo.com/video/485534667?title=0&byline=0&portrait=0" width="1024" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -260,11 +210,11 @@
 					<br> <br> 
 
 
-					<h3>STOPMOTION FILMING TECHNIQUES</h3>
+					<h3>Stop Motion Filming Techniques</h3>
 					
 					<p>
 		
-					<ol id="spaced-bullet-points">
+					<ul id="spaced-bullet-points">
 					<li></li>
 					<br>
 					<li></li> 
@@ -274,109 +224,150 @@
 					<li></li>
 					<br>
 					<li></li>
-					</ol>
+					</ul>
 
 					</p>
 
 				</section>
 			
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
-					<h2>Set up filming equiptment</h2>
-	<p>just before you start filming your own stopmotion lets look at the setup that you will use to ensure safe and effective filmmaking!</p>
+					<h2>Filming Equipment Set-Up</h2>
+					<p>Now you know how to film your own stop motion film, lets look at the set-up that you will use to ensure safe and effective filmmaking!</p>
 
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
+					<aside>Image of set-up?</aside>
+					<br>
+					<aside>is the tutor setting up one rig that can be used?</aside>
+
+
+
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
 
 				<section id="task-three">
-					<h2>Task 3: Make stop animation</h2>
-
-
+					<h2>Task 3: Make Your Own Stop Animation</h2>
 					
-					<h3>Aim:</h3>
-					<h3>Hints:</h3> <p>Consider how you could reveal, display or conceal your message with the newspaper clippings and objects you have gathered.
-					</p> 			
-
-				</section>
-
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
-
-				<section id="">
-					<h2>HOMEWORK: </h2>
-				
-					<h3></h3>
+					
+					<p><b>Aim:</b> To produce a relatively short x-xx second stop motion film that animates your message as a "Citizen of the Universe." You will then stick in some screenshots from your film into your zine.
+					</p> 
 					<br>
-					<!--
-					<p>Use a free app to make some quick edits to your clips and turn them into short films based off your storyboards.</p> -->
+					<aside>Example required? I have this but not sure whether it is appropiate as it isnt strickly a stop motion? maybe this is fine however as they have just has a lesson on stopmotion and this is just "decoration"...</aside><br>
+					<video width="640" height="360" controls>
+  <source src="covid-demo.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video>
+					<p><b>Note:</b> Don't worry if your outcome is rough around the edges, this is only an experiment! Have fun with it and see what you come out with :)</p>
+					<br>
+					<p><b>Hint:</b> Consider how you could reveal, display or conceal your placard's message with the newspaper clippings and objects you have gathered earlier.
+					</p> 
 
-					
+					<p id="timeframe">
+					<span style="background-color: yellow;">&nbsp;Guide time to complete this task: <b>20-30 mins</b>&nbsp;</span>
+					</p>		
 
 				</section>
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2n93YOrF6A8JJ9QgjplCiOWmZ_oLBgzO_wfzRMUUycKKx1g/viewform?embedded=true" width="640" height="1360" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-			<div id="scroll">
-				<br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597; <br><br><br><br>
-				&#10597;
-				<br>
-			</div>
 
 
-					<div id="hand-phone">
-						<img id="hand-phone" src="hand-phone.png" alt="Drawing of a hand holding a phone."> 
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
+
+
+						<div id="hand-phone">
+						<img id="hand-phone" src="hand-phone.png" alt=""> 
 					</div>
 
 					<div id="final-message">
-						<p>insert final goodbye message</p>
+						
+						<p><b>Thank you for taking part in today's workshop, we hope you enjoyed it!</b></p>
+						
+						<p>Here is a checklist of everything that you should have done today. If you have missed something out, click on the link to revisit the relevant section:</p>
+							<ol>
+							<!-- <li><a href="#task-one"></a> </li>
+							-->
+								<li><a href="#task-two">Image of your placard stuck into zine.</a> </li>
+								<li><a href="#task-three">Screenshots from stop motion film stuck into zine.</a> </li>
+							</ol>
+
+							<br>
+
+							<p><b>Before you go, don't forget to take note of the <a href="#homework">homework</a> outlined in the next section!</b></p>
+							
 					</div>
 
-					<div style="clear: both;"></div>
+					<div style="clear: both; padding-top: 70px; text-align: center;">
+						<p style="background-color:#ffdfbf; padding-top: 10px">Remember you can access this site from home to revisit any of the lessons or tasks in your own time by using the link and password provided!
+							<br><br><br>
+						<span style="background-color: yellow;">You will need the link to complete your homework!</span></p>
+					</div>
+
+				<div id="scroll">
+								<br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597; <br><br><br><br>
+								&#10597;
+								<br>
+				</div>
+
+				<section id="homework">
+					<h2>Homework: </h2>
+				
+					<p>For those of you who wish to achieve your Silver Arts Award we need you to spend a little bit of time outside the workshop filling the following form in :)</p>
+					<p>The questions concern xxx <aside>need a concise bit here</aside></p>
+					<p>We recommend that you create a Word document or equivalent to compose your answers on, and then copy and paste your answers into the <a href="#form">form below</a>  once completed.</p>
+					<p>Your tutor will brief the homework at the end of your workshop.</p>
+					<br>
+					<br>
+					<p><b>Here are the questions in plain text if you would like to copy and paste them into another document!</b></p>
+
+					<div id="plain-text">
+					<ol>
+						<br>
+						<b>Pt.I</b>
+						<li>What sort of art forms are you most interested in? (e.g. film, music, painting, performance...</li>
+						<li>Can you give some examples of roles or careers that are involved in these art forms? (Think actor, director, musician, choreographer, writer, painter etc)</li>
+						<li>Where might these people work/exhibit? (For example: artists may exhibit in a gallery, or they may perform in a pop-up exhibition in a shop front.)</li><br>
+					</ol>
+
+					<ol><br><b>Pt.II</b> 
+						<br><br>
+						Now it’s time to find out some more about these art forms, artists or organisations involved. You may want to interview your art teacher (via email or in person/zoom), a local artist you know, or you may want to research more about how to get into the arts (possibly Oxford Brookes Art and Design Foundation course, for example). 
+						<br><br>
+						<li>What or who have you chosen to research?</li>
+						<li>What sort of research have you done and where have you got your information from? (E.g. Interview with "X" or Online research using the "X" website)</li>
+						<li>What have you found out about your chosen artist, arts organisation or future education or career pathway? (Give at least 5 key points.)</li>
+						<li>Has this research influenced your future plans?</li>&nbsp; Yes / No / Maybe
+						<li>State your reason/s to your previous answer.</li>
+						<br>
+					</ol>
+					</div>
+
+				<iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSc2n93YOrF6A8JJ9QgjplCiOWmZ_oLBgzO_wfzRMUUycKKx1g/viewform?embedded=true" width="1050" height="3500" frameborder="0" marginheight="0" marginwidth="0" style="background-color: #cfc2ec; padding-top: 40px; margin: 20px 15px 20px 15px;">Loading…</iframe>
+
+				</section>
 
 
 	</main>
-
-
-	<footer>
-				Whatever footer info we want to put in			
-	</footer>
 
 </body>
 

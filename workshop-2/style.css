@@ -1,8 +1,22 @@
+        #hiddendiv {
+            display: none;
+        }
+
+        #passw {
+            margin: auto;
+            margin-top: 40vh;
+            padding: 30px 50px 35px 50px;
+            width: 370px;
+            background-color: pink;
+            font-family: monospace;
+            outline-width: 2px;
+            outline-color: black;
+            outline-style: solid;
+            font-size: 22px;
+
+        }
 
 
-	.content-hidden, .login-hidden {
-	  display: none;
-	}
 aside { background-color: black;
 color: white; }
 
@@ -42,6 +56,9 @@ footer {
 
 }
 
+h1 {
+	font-weight: normal;
+}
 
 h2 {
 	padding: 40px 20px 40px 20px;
@@ -66,6 +83,20 @@ li {
 	margin: 10px;
 }
 
+ol li {
+	width: auto;
+	font-size: 17px;
+	background-color: white;
+	padding: 5px;
+}
+
+ol {
+	width: auto;
+	font-size: 17px;
+	padding-right: 15px;
+	background-color: white;
+}
+
 #scroll {
 	text-align: right;
 	font-size: 30px;	
@@ -86,6 +117,11 @@ li {
 	padding-top: 60px;
 }
 
+#timeframe {
+	text-align: right;
+	padding-bottom: 15px;
+	padding-top: 100px;
+}
 
 /* Intro  */
 
@@ -139,6 +175,13 @@ li {
 			background-color: 	#D3D3D3;
 		}
 
+		#daily-news {
+			width: 500px;
+			margin: auto;
+			padding-top: 15px;
+			padding-bottom: 20px;
+		}
+
 
 /* artist-using-text */
 
@@ -147,42 +190,52 @@ li {
 		#task-two {
 			background-color: #D3D3D3;
 		}
+		#placard {
+			width: 750px;
+			margin: auto;
+			padding: 30px 0px 30px 0px;
+		}
 
-/* Stopmotion lesson */
+/* Stop motion lesson */
 
 
 /* Task three */
 
 		#task-three {
-			background-color: white;
+			background-color: #d3d3d3;
 		}
 
 
 /* homework*/
 
-#homework {
-	background-color: white;
-	padding: 5px 10px 0px 10px;
-}
+		#homework {
+			background-color: #d3d3d3;
+			padding: 5px 10px 0px 10px;
+		}
+		#plain-text {
+			width: 600px;
+			margin-left: 480px;
+			padding-bottom: 40px;
+		}
 
 /* goodbye*/
 
-#hand-phone {
-	width: 400px;
-	height: auto;
-	float: left;
-	padding-top:;
-}
+		#hand-phone {
+			width: 400px;
+			height: 410px;
+			float: left;
+			padding-top:;
+		}
 
-#final-message {
+		#final-message {
 
-	width: 600px;
-	height: 80px;
-	float: right;
-	padding-top:;
-	background-color: white;
+			width: 640px;
+			height: 400px;
+			float: right;
+			padding-top:;
+			background-color: white;
+			padding-top: 15px;
 
-}
 
 
 
