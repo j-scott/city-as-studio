@@ -391,17 +391,17 @@ figcaption {font-size: 18px;}
 			height: 410px;
 			float: left;
 			padding-top:;
-			margin-top: 10px;
+			margin-top: 0px;
 		}
 
 		#final-message {
 
 			width: 640px;
-			height: 450px;
+			height: 410px;
 			float: right;
 
 			background-color: white;
-			padding-top: 10px;
+			padding-top: 0px;
 
 		}
 		.optional {
