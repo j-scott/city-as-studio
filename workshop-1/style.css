@@ -76,6 +76,7 @@ h3 {
 
 p {
 	padding: 0px 20px 10px 20px;
+	
 }
 
 article {
@@ -118,6 +119,12 @@ figcaption {font-size: 18px;}
 	text-align: right;
 	padding-bottom: 15px;
 	padding-top: 100px;
+}
+
+#voice-note {
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+	font-size: 18px;
 }
 
 /* Intro  */
@@ -163,9 +170,7 @@ figcaption {font-size: 18px;}
 	padding: 20px 10px 20px 15px;
 	background-color: #ffe6f2; 
 }
-#Ruth-Asawa-Voice-Note {
-	padding: 80px 0px 100px 100px;
-}
+
 
 #Ruth_studio {
 	margin: auto;
