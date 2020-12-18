@@ -37,6 +37,7 @@ main {
 	font-family: monospace;
 	font-size: 20px;
 	text-align: justify;
+	box-shadow: 1px 1px 15px 1px black;
 }
 
 header {
@@ -166,11 +167,12 @@ ol {
 
 /* goals */
 
-#goals {
-	margin-top: 30px;
-	padding: 30px 0px 10px 0px;
-	background-color: #ffdfbf;
-}
+		#goals {
+			margin-top: 30px;
+			padding: 30px 0px 10px 0px;
+			background-color: #ffdfbf;
+			box-shadow: 1px 1px 10px 1px black;
+		}
 
 /* intro-to-collage */
 
@@ -179,6 +181,7 @@ ol {
 
 		#task-one {
 			background-color: 	#D3D3D3;
+			box-shadow: 1px 1px 10px 1px black;
 		}
 
 		#daily-news {
@@ -195,6 +198,7 @@ ol {
 
 		#task-two {
 			background-color: #D3D3D3;
+			box-shadow: 1px 1px 10px 1px black;
 		}
 		#placard {
 			width: 750px;
@@ -202,13 +206,19 @@ ol {
 			padding: 30px 0px 30px 0px;
 		}
 
-/* Stop motion lesson */
 
+#arrangement-gif {
+	text-align: center;
+	color: red;
+	padding: 70px 0px 70px 0px;
+}
+/* Stop motion lesson */
 
 /* Task three */
 
 		#task-three {
 			background-color: #d3d3d3;
+			box-shadow: 1px 1px 10px 1px black;
 		}
 
 
@@ -217,6 +227,7 @@ ol {
 		#homework {
 			background-color: #d3d3d3;
 			padding: 5px 10px 0px 10px;
+			box-shadow: 1px 1px 8px 1px black;
 		}
 		#plain-text {
 			width: 600px;
@@ -231,7 +242,7 @@ ol {
 			width: 400px;
 			height: 410px;
 			float: left;
-			padding-top:;
+			box-shadow: 1px 1px 10px 1px black;
 		}
 
 		#final-message {
@@ -243,6 +254,17 @@ ol {
 			background-color: white;
 			padding-top: 15px;
 			font-size: 20px !important;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+
+		#note {
+
+			clear: both; 
+			margin-top: 470px; 
+			text-align: center;
+			box-shadow: 1px 1px 10px 1px black;
+
+		}
 
 
 
