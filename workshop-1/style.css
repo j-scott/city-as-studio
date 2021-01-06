@@ -25,8 +25,22 @@ aside { background-color: black;
 color: white; }
 
 body {
+  animation-name: colorful;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+	background-color: ;	
+}
 
-	background-color: #ffe6f2 !important;	
+@keyframes colorful {
+  0% {
+    background-color: #ffe6f2; /*pink*/
+  }
+  50% {
+    background-color: #E8E8E8; /*grey*/
+  }
+  100% {
+    background-color: #ffe6f2; /*pink*/
+  }
 }
 
 
