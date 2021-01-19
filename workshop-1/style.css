@@ -142,6 +142,13 @@ figcaption {font-size: 18px;}
 	font-size: 18px;
 }
 
+#light-grey-section {
+			background-color: #DCDCDC; 
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 1px 1px 10px 1px black;
+}
+
 /* Intro  */
 
 		#intro {
@@ -397,6 +404,12 @@ figcaption {font-size: 18px;}
 			width: 150px;
 			margin: auto;
 			padding-top: 10px;
+		}
+
+		#tasks {
+			background-color: #ffe6f2; 
+			padding: 10px;
+			margin: 10px;
 		}
 
 
