@@ -73,7 +73,7 @@ ul li {
 .projects {
 	padding-top: 5px;
 	display: grid;
-	max-width: 1140px;
+	max-width: 1040px;
 	margin: auto;
     grid-template-columns:  repeat( auto-fit, minmax(400px, 1fr)) ;
     grid-template-rows: 600px ;
@@ -120,7 +120,7 @@ h4 {
 }
 
 #james {
-	background-image: url(james.PNG);
+	background-image: url(james.jpg);
 	background-repeat: ;
 	background-position: 50% 60%;
 	background-size: 850px;
