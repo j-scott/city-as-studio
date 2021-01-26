@@ -239,6 +239,11 @@ figcaption {font-size: 18px;}
 	      width: 950px;
     	}
 
+    	#covid-mindmap {
+    		width: 800px;
+    		margin: auto;
+    	}
+
 /* Task 2 */
 
 		#task-two {
@@ -366,12 +371,31 @@ figcaption {font-size: 18px;}
 			text-align: right;
 			padding: 60px 80px 20px 0px;
 		}
-		#filmmaking-materials {
-			width: 1100px;
+		#home-made-pistol-grip {
+			width: 400px;
 			margin: auto;
-			padding: 40px 0px 40px 0px ;
+			padding: ;
 		}
 
+		#tripod-pistol-grip {
+			width: 300px;
+			margin: auto;
+			margin-top: 20px;
+		}
+
+		#camera-rig {
+			width: 500px;
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		#phone-clip-stand {
+			width: 350px;
+		}
+
+		#clip-stand {
+			text-align: right;
+		}
 		#filming-ratio {
 			width: 600px;
 			margin: auto;
@@ -396,7 +420,7 @@ figcaption {font-size: 18px;}
 		}
 
 		#speach-bubble {
-			padding: 100px 0px 50px 0px;
+			padding: 30px 0px 30px 0px;
 			width: 300px;
 			margin-left: 50%
 		}

@@ -73,7 +73,7 @@ ul li {
 .projects {
 	padding-top: 5px;
 	display: grid;
-	max-width: 1640px;
+	max-width: 1140px;
 	margin: auto;
     grid-template-columns:  repeat( auto-fit, minmax(400px, 1fr)) ;
     grid-template-rows: 600px ;
