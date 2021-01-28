@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Expanding the Frame</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta name="robots" content="noindex">
+	<link rel="icon" href="https://www.modernartoxford.org.uk/wp-content/uploads/2014/10/201209131432596661.jpg" type="image/gif" sizes="16x16">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+
+<!-- mouseover video start stop -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+  
+</head>
+
+<body>
+
+<!-- PASSWORD 
+	
+		<div id="passw">
+		    <div>    
+		        <B>Arts Research Questions:</B><span style="font-size: 18px;"> (password required)</span>
+		        <br><br>
+		    </div>
+
+		    <div>
+		    
+		        <input type="password" id="password" placeholder="Password" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" /> 
+		        
+		        <br><br>
+		        
+		        <input id="button" type="button" value="Login" onclick="if (document.getElementById('password').value == 'cas2021'){ document.getElementById('hiddendiv').style.display='block'; document.getElementById('passw').style.display='none'; } else { alert('Invalid Password!'); password.setSelectionRange(0, password.value.length); }" />
+		    </div>           
+		</div>
+
+-->
+
+ 	<main > <!--INSERT:  id="hiddendiv" INTO "MAIN" -->
+	
+
+	<header>
+				<h1>Expanding the Frame Presentation:
+				</h1>
+	</header>
+
+
+	<nav>
+
+	</nav>
+
+
+				
+					
+	<div>
+		
+        <img class="mySlides" src="Slide1.jpeg" alt="Slide 1">
+        
+        <img class="mySlides" src="Slide2.jpeg" alt="Slide 2">
+        <img class="mySlides" src="Slide3.jpeg"  alt="Slide 3">
+     </div>
+
+    <br>
+
+    <div style="text-align: center;"> 
+        <button class="button" onclick="plusDivs(-1)"> &lang; </button>
+        &nbsp;
+        <button class="button" onclick="plusDivs(1)"> &rang; </button>
+    </div>
+
+  <script>
+ 	var slideIndex = 1;
+ 	showDivs(slideIndex);
+ 	function plusDivs(n) {
+    showDivs(slideIndex += n);
+ 	}
+ 	function currentDiv(n) {
+    showDivs(slideIndex = n);
+  	}
+  	function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  
+  	}
+  </script>
+
+
+
+
+	</main>
+
+</body>
+
+</html>

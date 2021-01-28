@@ -6,7 +6,7 @@
             margin: auto;
             margin-top: 40vh;
             padding: 30px 50px 35px 50px;
-            width: 370px;
+            width: 540px;
             background-color: pink;
             font-family: monospace;
             outline-width: 2px;
@@ -15,7 +15,35 @@
             font-size: 22px;
 
         }
+.button {
+  background-color: transparent; 
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  outline: solid; 
+}
+.button:hover {
+  background-color: transparent; 
+  border: none;
+  color: blue;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  outline: solid; 
+}
 
+.mySlides {
+  width: 1140px;
+
+  position: relative;
+  margin: auto;
+}
 
 aside { background-color: black;
 color: white; }
@@ -42,16 +70,18 @@ body {
 
 
 main {
-
+	font-size: 20px;
+	text-align: center;
+ /*
 	width: 1100px;
 	background-color: orange/*#ff99cc*/;
-	margin: auto; 
+/*	margin: auto; 
     padding: 20px;
 	height: auto;
 	font-family: monospace;
-	font-size: 20px;
+	
 	text-align: justify;
-	box-shadow: 1px 1px 15px 1px black;
+	box-shadow: 1px 1px 15px 1px black;*/
 }
 
 header {
@@ -73,6 +103,9 @@ footer {
 
 h1 {
 	font-weight: normal;
+		font-family: monospace;
+	
+	
 }
 
 h2 {
@@ -98,7 +131,7 @@ li {
 	margin: 10px;
 }
 
- {
+ol li {
 	width: auto;
 	font-size: 17px;
 	background-color: white;
@@ -107,18 +140,11 @@ li {
 
 ol {
 	width: auto;
-	font-size: ;
-	padding-right: ;
-	
+	font-size: 17px;
+	padding-right: 15px;
+	background-color: white;
 }
 
-a {
-	color: blue;
-}
-
-a:hover {
-	color: red;
-}
 #scroll {
 	text-align: right;
 	font-size: 30px;	
@@ -252,7 +278,7 @@ a:hover {
 		}
 		#plain-text {
 			width: 600px;
-			margin-left: 480px;
+			margin-left: 400px;
 			padding-bottom: 40px;
 			padding-top: 30px;
 		}
