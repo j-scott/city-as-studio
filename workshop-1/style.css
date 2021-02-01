@@ -219,10 +219,10 @@ figcaption {font-size: 18px;}
     	.imgBox {
     		margin-top: 60px;
     		
-	      height: 550px;
+	      height: 700px;
 	      margin-right: auto;
 	      margin-left: auto;
-	      background: url(orangemindmap.png) no-repeat;
+	      background: url(zine-mindmap.png) no-repeat;
 	      background-size: 950px;
 	      background-position: center;
 	      width: 950px;
@@ -230,8 +230,8 @@ figcaption {font-size: 18px;}
     	.imgBox:hover {
     		margin-top: 60px;
     		
-	      height: 550px;
-	      background: url(greenmindmap.png) no-repeat;
+	      height: 700px;
+	      background: url(covid-mindmap.jpg) no-repeat;
 	      background-size: 950px;
 	      background-position: center;
 	      margin-right: auto;
@@ -359,6 +359,13 @@ figcaption {font-size: 18px;}
 		#example-storyboard {
 			width: 1000px;
 			padding: 0px 30px 50px 30px;
+		}
+
+		#reminder-lists {
+			border: solid 2px;
+			background-color: ;
+			width: 300px;
+
 		}
 
 /* Filming with a smartphone */
