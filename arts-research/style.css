@@ -99,17 +99,21 @@ li {
 }
 
 ol li {
+
 	width: auto;
-	font-size: 17px;
-	background-color: white;
-	padding: 5px;
+	
+	background-color: ;
+	padding: 7px;
+	
 }
 
 ol {
 	width: auto;
-	font-size: 17px;
-	padding-right: 15px;
-	background-color: white;
+	font-size: 18px;
+
+	
+	background-color: #ffe6f2;
+	margin: 20px 60px 40px 60px;
 }
 
 #scroll {
