@@ -127,7 +127,12 @@ h4 {
 	background-position: 50% 60%;
 	background-size: 850px;
 }
-
+#poppy {
+		background-image: url(poppy.png);
+	background-repeat: ;
+	background-position: 50% 75%;
+	background-size: 850px;
+}
 
 
 h1 {
