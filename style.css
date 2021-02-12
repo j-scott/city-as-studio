@@ -121,6 +121,13 @@ h4 {
 	opacity: 100%;
 }
 
+#kate {
+		background-image: url(Kate_Mahony.jpg);
+	background-repeat: ;
+	background-position: 20% 80%;
+	background-size: 900px;
+}
+
 #james {
 	background-image: url(James_Scott.jpg);
 	background-repeat: ;
