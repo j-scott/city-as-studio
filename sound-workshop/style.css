@@ -1,0 +1,326 @@
+        #hiddendiv {
+            display: none;
+        }
+
+        #passw {
+            margin: auto;
+            margin-top: 40vh;
+            padding: 30px 50px 35px 50px;
+            width: 380px;
+            background-color: pink;
+            font-family: monospace;
+            outline-width: 2px;
+            outline-color: black;
+            outline-style: solid;
+            font-size: 22px;
+
+        }
+.button {
+  background-color: transparent; 
+  border: none;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  outline: solid; 
+}
+.button:hover {
+  background-color: transparent; 
+  border: none;
+  color: blue;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  outline: solid; 
+}
+
+.mySlides {
+  width: 1140px;
+
+  position: relative;
+  margin: auto;
+  text-align: right;
+}
+
+#slides {
+	width: 1140px;
+}
+
+aside { background-color: black;
+color: white; }
+
+body {
+  animation-name: colorful;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+	background-color: ;	
+}
+
+@keyframes colorful {
+  0% {
+    background-color: #ffe6f2; /*pink*/
+  }
+  50% {
+    background-color: #E8E8E8; /*grey*/
+  }
+  100% {
+    background-color: #ffe6f2; /*pink*/
+  }
+}
+
+
+
+main {
+	font-size: 20px;
+	text-align: center;
+	width: 1140px;
+	margin: auto;
+ /*
+	width: 1100px;
+	background-color: orange/*#ff99cc*/;
+/*	margin: auto; 
+    padding: 20px;
+	height: auto;
+	font-family: monospace;
+	
+	text-align: justify;
+	box-shadow: 1px 1px 15px 1px black;*/
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+footer {
+	background-color: orange;
+	width: 1100px;
+	height: 20px;
+	margin: auto;
+	padding: 10px 20px 30px 20px;
+
+}
+
+h1 {
+	font-weight: normal;
+		font-family: monospace;
+	
+	
+}
+
+h2 {
+	padding: 40px 20px 40px 20px;
+}
+
+h3 {
+	font-weight: bold !important;
+	
+}
+
+p {
+	padding: 0px 20px 10px 20px;
+}
+
+article {
+	padding: 10px 20px 10px 20px;
+	font-size: 22px;
+	text-align: left;
+}
+
+li {
+	margin: 10px;
+}
+
+ol li {
+	width: auto;
+	font-size: 17px;
+	background-color: white;
+	padding: 5px;
+}
+
+ol {
+	width: auto;
+	font-size: 17px;
+	padding-right: 15px;
+	background-color: white;
+}
+
+#scroll {
+	text-align: right;
+	font-size: 30px;	
+	margin-left: 99%;
+}
+
+#lesson-head {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#spaced-bullet-points {
+	line-height: 1.4;
+}
+
+#spacer-padding {
+	padding-top: 60px;
+}
+
+#timeframe {
+	text-align: right;
+	padding-bottom: 15px;
+	padding-top: 100px;
+}
+
+#voice-note {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+/* Intro  */
+
+		#intro {
+			padding-top: 10px;
+			
+		}
+
+		#intro-heading {
+			padding: 20px 20px 0px 20px ;
+		}
+
+		#main-video {
+			padding-top: 10px;
+			margin: auto;
+			width: 1024px;
+
+		}
+
+		#videoplaceholder {
+			padding-top: 10px;
+			margin: auto;
+			width: 1024px;
+			height: 500px;
+			background-color: blue;
+
+		}
+
+		#intro-images {
+			width: 1000px;
+			height: auto;
+			margin: auto;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+/* goals */
+
+		#goals {
+			margin-top: 30px;
+			padding: 30px 0px 10px 0px;
+			background-color: #ffdfbf;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+
+/* intro-to-collage */
+
+
+/* Task 1 */
+
+		#task-one {
+			background-color: 	#D3D3D3;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+
+		#daily-news {
+			width: 500px;
+			margin: auto;
+			padding-top: 15px;
+			padding-bottom: 20px;
+		}
+
+
+/* artist-using-text */
+
+/* Task 2 */
+
+		#task-two {
+			background-color: #D3D3D3;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+		#placard {
+			width: 750px;
+			margin: auto;
+			padding: 30px 0px 30px 0px;
+		}
+
+
+#arrangement-gif {
+	text-align: center;
+	color: red;
+	padding: 70px 0px 70px 0px;
+}
+/* Stop motion lesson */
+
+/* Task three */
+
+		#task-three {
+			background-color: #d3d3d3;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+
+
+/* homework*/
+
+		#homework {
+			background-color: #d3d3d3;
+			padding: 5px 10px 0px 10px;
+			box-shadow: 1px 1px 8px 1px black;
+		}
+		#plain-text {
+			width: 600px;
+			margin-left: 400px;
+			padding-bottom: 40px;
+			padding-top: 30px;
+		}
+
+/* goodbye*/
+
+		#hand-phone {
+			width: 400px;
+			height: 410px;
+			float: left;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+
+		#final-message {
+
+			width: 640px;
+			height: 400px;
+			float: right;
+			padding-top:;
+			background-color: white;
+			padding-top: 15px;
+			font-size: 20px !important;
+			box-shadow: 1px 1px 10px 1px black;
+		}
+
+		#note {
+
+			clear: both; 
+			margin-top: 470px; 
+			text-align: center;
+			box-shadow: 1px 1px 10px 1px black;
+
+		}
+
+
+
+
+

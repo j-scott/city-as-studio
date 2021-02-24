@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Sound Workshop Presentation</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta name="robots" content="noindex">
+	<link rel="icon" href="https://www.modernartoxford.org.uk/wp-content/uploads/2014/10/201209131432596661.jpg" type="image/gif" sizes="16x16">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> 
+
+<!-- mouseover video start stop -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+  
+</head>
+
+<body>
+
+<!-- PASSWORD -->
+	
+		<div id="passw">
+		    <div>    
+		        <B>Sound Workshop Presentation:</B><span style="font-size: 18px;"> (password required)</span>
+		        <br><br>
+		    </div>
+
+		    <div>
+		    
+		        <input type="password" id="password" placeholder="Password" onkeydown="if (event.keyCode == 13) document.getElementById('button').click()" /> 
+		        
+		        <br><br>
+		        
+		        <input id="button" type="button" value="Login" onclick="if (document.getElementById('password').value == 'cas2021'){ document.getElementById('hiddendiv').style.display='block'; document.getElementById('passw').style.display='none'; } else { alert('Invalid Password!'); password.setSelectionRange(0, password.value.length); }" />
+		    </div>           
+		</div>
+
+
+
+ 	<main id="hiddendiv"> <!--INSERT:  id="hiddendiv" INTO "MAIN" -->
+	
+
+	<header>
+				<h1>Sound Workshop Presentation:
+				</h1>
+	</header>
+
+<br><br>
+					
+	<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTXHo1r9sOgcTEsiKC2H2Y7487V_LlFqzeoDVA5pqiRhISleifXhYNQWxW4y4Humg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+	</main>
+
+</body>
+
+</html>
