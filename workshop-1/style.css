@@ -29,6 +29,8 @@ body {
   animation-duration: 30s;
   animation-iteration-count: infinite;
 	background-color: ;	
+	font-family: monospace;
+	  font-size: 18px;
 }
 
 @keyframes colorful {
