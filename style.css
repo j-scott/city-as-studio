@@ -10,7 +10,7 @@ header {
 
 }
 
-nav {
+#nav-bar {
 	max-width: 700px;
 	margin: auto;
 	text-align: center;
@@ -92,7 +92,7 @@ ul li {
 	align-items: flex-end;
 }
 
-#description {
+.description {
 	background-color: white;
 	opacity: 80%;
 	border: solid;
@@ -141,12 +141,20 @@ h4 {
 	background-size: 850px;
 }
 
+#rachel{
+	background-image: url();
+	background-repeat: ;
+	background-position: ;
+	background-size: 400px;
+}
+
 #holly_sara{
 	background-image: url(Sara&Holly.jpg);
 	background-repeat: ;
 	background-position: ;
 	background-size: 400px;
 }
+
 
 
 h1 {

@@ -33,9 +33,41 @@
 
 <body>
 
+
+
 <!-- PASSWORD -->
 
+					<div style="position: relative; top: 34px; margin: auto; width: 1100px; text-align: right;">
+			Accessibility Colours:
+			<button type="button" onclick="history.go(0)">Normal</button>
+
+		   
+			<button type="button" style="background-color: yellow;" onclick="myFunction()">Yellow</button>
+
+				<script>
+				function myFunction() {
 		
+					  
+
+				  var x = document.getElementsByClassName("type-box");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#ffff99";
+				  }
+
+				  var x = document.getElementsByClassName("main");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "yellow";
+				  }
+document.getElementById("passw").style.background = "#ffff99"; 
+
+			}
+			</script>
+		</div>
+
+
+
 		<div id="passw">
 		    <div>    
 		        <B>WORKSHOP 1:</B><span style="font-size: 18px;"> (password required)</span>
@@ -57,7 +89,10 @@
 
 
 
- <main id="hiddendiv" > <!--INSERT:  id="hiddendiv"  INTO "MAIN" -->
+ <main  class="main" id="hiddendiv" > <!--INSERT:  id="hiddendiv"  INTO "MAIN" -->
+
+
+
 
 	<header>
 				<h1>Workshop 1: <br> <b>The Language of Film</b>
@@ -71,8 +106,8 @@
 
 
 				<section id="intro">
-					<h2 id="intro-heading">Intro:</h2>
-					<p>From shot sizes to camera angles, this workshop will introduce you to the rules of filmmaking. Following a guided series of activities, you will deconstruct moving image practices and develop your own narratives by using the environment and objects around you. <b>We advise making this page full screen for the duration of the workshop, click play on the following video to begin!</b>  
+					<h2 id="intro-heading">Introduction:</h2>
+					<p>From shot sizes to camera angles, this workshop will introduce you to the rules of filmmaking. Following a guided series of activities, you will deconstruct moving image techniques and styles, and develop your own narratives by using the environment and objects around you. <b>We advise making this page full screen for the duration of the workshop. Click play on the following video to begin!</b>  
 					</p>
 				 	 <div id="videoplaceholder">
 				 	<iframe src="https://player.vimeo.com/video/503759838?title=0&byline=0&portrait=0" width="1024" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -98,18 +133,18 @@
 					</b>
 				</p>
 				<p>
-					You have each been given your own zine (a DIY pamphlet) to fill in over the course of your weeks residency with us. As you scroll down this page during the workshop, you will see various tasks that require you to write, sketch or stick things into your zine. Your zine will not only be very helpful to keep all of your ideas in one place, but will act as documentation for your Arts Awards too!
+					You have each been given your own zine (a DIY pamphlet) to fill in over the course of your residency. As you scroll down this page during the workshop, you will see various tasks that require you to write, sketch or stick things into your zine. Your zine will not only be helpful to keep all of your ideas in one place, but will act as documentation for your Arts Awards.
 				</p>
 
 				<p>
-					Everything you will need for this workshop can be found in your residency pack, although you may be asked at times to experiment with things found around your home.
+					Everything you will need for this workshop can be found in your residency pack. At times you may be asked to experiment with things found around your home.
 				</p>
 				<p>
-					We don't expect you to be video professionals yet! Today is a chance for you to learn about and experiment with filmmaking, whilst considering yourself as a citizen of the universe, so don't worry if you aren't 100% satisfied with your results at this stage.
+					Today is a chance for you to learn about and experiment with filmmaking, whilst considering yourself as a "citizen of the universe", so don't worry if you aren't 100% satisfied with your results at this stage. We don't expect you to be video professionals yet!
 				</p>
 				<br>
 				<p>
-					At the bottom of this page there is a checklist of everything that you should have completed during this workshop so you know you didn't miss anything!
+					At the bottom of this page there is a checklist of everything that you should have completed during this workshop so you can be sure you haven't missed anything!
 				</p>
 			</article>
 
@@ -123,7 +158,7 @@
 				<br>
 			</div>
 				
-				<h3>What is a Citizen of the Universe..?</h3>
+				<h3>What is a "Citizen of the Universe"..?</h3>
 
 
 
@@ -153,7 +188,7 @@
 				<br>
 			</div>
 
-				<section id="ruth-asawa">
+				<section id="ruth-asawa" class="type-box">
 					<h3>RUTH ASAWA: "Citizen of the Universe"</h3>
 					
 
@@ -171,9 +206,9 @@
 
 					<br>
 
-					<p>As a teenager Ruth lived in an American concentration camp due to the forced relocation and incarceration of Japanese-Americans by the US government on the eve of World War II. Despite this, she learned her artistic skills from professional artists there and left in the firm belief that art can be life changing and a positive force for social good.</p>
+					<p>As a teenager Ruth lived in an American concentration camp as part of the forced relocation and incarceration of Japanese-Americans by the US government on the eve of World War II. Despite this, she learned artistic skills from professional artists there, and left with the firm belief that art can be life changing and a positive force for social good.</p>
 					<br>
-					<p>Ruth strived for a truly equal and unified society. She believed that we are all connected on a larger scale with only man-made categorisation dividing us, and truly saw herself to be a “Citizen of the Universe”. 
+					<p>Ruth strived for a truly equal and unified society. She believed that we are all connected on a broader level, and that it is only human-made categorisations that divide us.  She truly saw herself to be a "Citizen of the Universe".
 					</p>
 
 					<figure id="Ruth_studio">
@@ -198,7 +233,7 @@
 			</div>
 				
 				<article><b>
-				Here are some of the recent big news topics as a warm up to get you thinking about your message as a citizen of the universe.</b></article>
+				Here are some recent big news topics to get you thinking about your own message as a "citizen of the universe".</b></article>
 			
 			<div id="scroll">
 				<br>
@@ -235,7 +270,7 @@
 			</div>
 
 
-				<section id="task-one">
+				<section id="task-one" class="type-box">
 
 					
 					<h2>Task 1: Mind Mapping</h2>
@@ -244,7 +279,7 @@
 
 					<br>
 
-					<p><b>Pt. 1 </b> - Go through the newspapers provided and highlight any descriptive or keywords from the articles. Are there any of these topics you are particularly interested in?</p>
+					<p><b>Part. 1 </b> - Go through the newspapers provided and highlight any descriptive or keywords from the articles. Are you interested in exploring any of these topics further?</p>
 
 
 					<div id="news-words">
@@ -254,7 +289,7 @@
 					<br>
 
 					<p>
-						<b>Pt. 2 </b> - Use the mind maps in your zine to visualise your thoughts. You can use any of the headlines or keywords from your articles, and add your own thoughts.
+						<b>Part. 2 </b> - Use the mind maps in your zine to visualise your thoughts. You can use any of the headlines or keywords from your articles, and add your own thoughts.
 
 					</p>
 					<p> 
@@ -283,9 +318,9 @@
 			</div>
 
 
-				<section id="task-two">
+				<section id="task-two" class="type-box">
 					<h2>Task 2: Object Collection</h2>
-					<p>Find an object or a series of objects that relate to the ideas that you most want to explore from your mind maps.</p>
+					<p>Find an object or a series of objects that relate to a few ideas in your mind maps.</p>
 				
 					<br>
 					<p><b>**Hint**</b> Think of things that are close to hand, you can't go to the shops so be creative and resourceful with what's around you!</p>
@@ -336,7 +371,7 @@
 				<br>
 			</div>
 
-				<article>You now have all the subject matter you need to start experimenting with your camera today :)</article>
+				<article>You now have all the subject matter you need to start experimenting with your camera today. </article>
 
 			<div id="scroll">
 				<br>
@@ -347,7 +382,7 @@
 				<br>
 			</div>
 
-				<article>Now let's take some time to look through some filming techniques before you go ahead to plan your own shots in the next task... 
+				<article>Now let's look through some filming techniques before you get started with planning your own shots in the next task... 
 				</article>
 				
 
@@ -461,7 +496,7 @@
 
 
 <!--Lenses-->
-				<div id="lenses">
+				<div id="lenses" class="type-box">
 								
 					<h3>A Bonus Note On Lenses:</h3>
 					<br>
@@ -596,7 +631,7 @@
 				<br>
 			</div>
 
-				<article> Before looking at any more camera techniques, we are going to learn about how we can plan a film that combines multiple shots...	
+				<article> Before looking at any more camera techniques, we are going to learn about how we can plan a film that combines multiple shots.	
 				</article>
 
 			<div id="scroll">
@@ -609,7 +644,7 @@
 			</div>
 
 				<section id="storyboards">
-				<div id="light-grey-section">
+				<div id="light-grey-section" class="type-box">
 					<h2 id="lesson-head"><b>Storyboarding</b></h2>
 
 					<div>
@@ -765,14 +800,14 @@
 			</div>
 
 					<br>
-				<div id="light-grey-section">
-					<p id="Hitchcock">It’s said that Alfred Hitchcock considered a film done and dusted once he’d completed his storyboard, and that he saw shooting the film itself as a mere technicality. </p>
+				<div id="light-grey-section" class="type-box">
+					<p id="Hitchcock">It is said that the Director Alfred Hitchcock considered a film done and dusted once he’d completed his storyboard, and that he saw shooting the film itself as a mere technicality. </p>
 
 					<p id="Hitchcock">While this may read like a folk tale, the reality is that Hitchcock rarely rushed to get his camera out on set to capture spontaneous moments. Instead, he preferred to stage his shots well in advance of production.</p> 
 
-					<p id="Hitchcock">It’s remarkable to see how closely his finished scenes aligned with his initial conception. </p>
+					<p id="Hitchcock">It’s remarkable to see how closely his finished scenes align with his initial concepts. </p>
 
-					<p style="padding: 40px 20px 0px 200px;"><i>As you embark on your own storyboard in the next task, remember to think ahead about how you might create these actions in real life after, as Hitchcock did...</i></p>
+					<p style="padding: 40px 20px 0px 200px;"><i>As you embark on your own storyboard in the next task, remember to think ahead about how you might create these actions in real life afterwards, just like Hitchcock did...</i></p>
 				</div>
 
 			<div id="scroll">
@@ -784,10 +819,10 @@
 				<br>
 			</div>
 
-				<section id="billboard-test">
+				<section id="billboard-test" class="type-box">
 					<h2>The Billboard Test: <b>What's Your Digital Footprint?</b></h2>
 
-					<p>By this point you are probably ready to jump into the process of creating your own films, however, there is just one more thing that we need to run through...</p>
+					<p>By this point you are probably ready to jump into the process of creating your own films. But there is just one more thing that we need to run through...</p>
 <div id="voice-note">
 					<audio id="" controls>
   					<source src="billboard.mp3" type="audio/mpeg" /> 
@@ -803,10 +838,10 @@
 						<li>What impression does it give of you?</li>
 					</ul>
 					<br>
-					<p>If you wouldn't want it to appear on a roadside billboard for all to see, then it's probably not a good idea to share it online!</p>
+					<p>If you wouldn't want it to appear on a public roadside billboard for all to see, then it's probably not a good idea to share it online!</p>
 					</div>
 					<br>
-					<p>Remember to bear this in mind as you plan your films - this means that you will be able to safely spread your message as a citizen of the universe online later if you choose too :)</p>
+					<p>Remember to bear this in mind as you plan your films - this way you will be able to share your message as a "citizen of the universe" online in the safest way. :)</p>
 					<br><br>
 					<p><b>What would you share on the billboard below?</b></p>
 
@@ -826,7 +861,7 @@
 			</div>
 
 
-				<section id="task-three">
+				<section id="task-three" class="type-box">
 					<h2>Task 3: Storyboard Your Short Film</h2>
 					<p><b>The Task:</b> Storyboard a short film composed of <b>six shots</b> that examine the objects you selected earlier. Think about how you could use these items to explore the themes and ideas from your mind maps.</p>
 					<p>Use the template in your zine to create your storyboard. </p>
@@ -838,7 +873,7 @@
 
 					<br>
 
-					<p><b>**Note**</b> Remember to use a variety of the shot sizes, camera movements and camera angles that we looked at earlier to create a more dynamic visual experience for the viewer. A list of all of them is below to remind you!</p> 
+					<p><b>**Note**</b> Remember to use a variety of the shot sizes, camera movements and camera angles that we looked at earlier to create a more dynamic visual experience for the viewer. Here they are again as a reminder:</p> 
 
 			<br>
 
@@ -885,7 +920,7 @@
 			</div>
 
 				<article>
-				Now that we've planned our shots, we need to think about the equipment available to us today to make them become a reality!
+				Now that you have planned your shots, you will need to think about the equipment available to you today to make them become a reality!
 				</article>
 
 			<div id="scroll">
@@ -898,7 +933,7 @@
 			</div>
 
 				<section id="smartphone-filming">
-<div id="light-grey-section">
+<div id="light-grey-section" class="type-box">
 					<h2 id="lesson-head">Filming with a Smartphone:</h2>
 					
 					
@@ -908,7 +943,7 @@
 					</p>
 					 
 					<p id="spacer-padding">
-						You will most likely already record on your phone with apps such as TikTok and Instagram... However, today we are going to refine our videography skills with a mix of techniques and equipment to professionalise our films.
+						You will most likely already record on your phone with apps such as TikTok and Instagram. However, today you are going to refine your videography skills with a mix of techniques and equipment to professionalise your films.
 					</p>
 					<br>
 </div>
@@ -961,11 +996,11 @@
 					<p>
 		
 					<ol id="spaced-bullet-points">
-					<li>Film horizontally - if you film holding the smartphone vertically you will get black bars on both sides of the image when editing it later :(</li>
+					<li>Film horizontally - if you film holding the smartphone vertically you will get black bars on both sides of the image when editing it later. </li>
 					<br>
-					<li>Check the background noise (both audio and visual). This could be in the form of someone's discussion ruining your audio track, or someone eating a sandwich in the back of your shot.</li> 
+					<li>Check the background noise (both audio and visual). You don't want  someone's discussion ruining your audio track, or someone eating a sandwich in the back of your shot.</li> 
 					<br>
-					<li>Put your phone on aeroplane mode so things don't pop up and make sounds or distract you from filming.</li>
+					<li>Put your phone on aeroplane mode to avoid any distracting notifications while you film.</li>
 					<br>
 					<li>Use some tape to keep your phone in place when in its holder if necessary. 	WE DON'T WANT SMASHED PHONES TODAY!</li>
 					<br>
@@ -992,11 +1027,11 @@
 			</div>
 
 
-					<section id="task-four">
-					<h2>Task 4: Follow Your Storyboard and Film Your Objects! </h2>
+					<section id="task-four" class="type-box">
+					<h2>Task 4: Follow Your Storyboard and Film Your Objects </h2>
 
 					<p>
-						Now it’s time to shoot your storyboard! Take you time and have fun - don’t forget this is all about experimenting with your camera!
+						Now it’s time to shoot your storyboard. Take your time and have fun - don’t forget this is all about experimenting with your camera!
 					</p>
 
 					<p style="font-size: 20px;" ><b>- Then take screenshots of your video shots and print them out to add into your zine.</b> (If you run out of space in your zine to stick in your screenshots you can staple or paperclip any extra sheets in.) </p>
@@ -1007,10 +1042,10 @@
 					<br><br>
 					
 
-					<p><b>Hint:</b> Look at your storyboard, are there any shots which require the same set up? If so, do those first, then change the set up for the other shots - that way you don’t have to keep going between setups!</p>
+					<p><b>Hint:</b> Look at your storyboard. Are there any shots which require the same set up? If so, do those first, then change the set up for the other shots - that way you don’t have to keep going between setups!</p>
 						
 
-					<p><b>Note:</b> Remember your smartphone filming techniques that we just looked through :)</p>
+					<p><b>Note:</b> Remember the  smartphone filming techniques that were just covered. </p>
 
 
 					<p id="timeframe">
@@ -1033,7 +1068,7 @@
 				<br>
 			</div>
 
-				<article><b>Well done, you have nearly completed this workshop!</b> Before you go however, there is one final important bit!</article>
+				<article><b>Well done, you have nearly completed this workshop!</b> Before you go, there is one final important bit.</article>
 			
 			<div id="scroll">
 				<br>
@@ -1044,12 +1079,12 @@
 				<br>
 			</div>
 
-				<section id="post-production">
+				<section id="post-production" class="type-box">
 					<h2>Post-Production Editing</h2>
 
 					<br><br>
 					<p>
-						In task 4 you filmed the individual shots from your storyboard. To transform these into short films we need to use <b>post-production editing.</b>
+						In task 4 you filmed the individual shots from your storyboard. To transform these into short films you will need to do <b>post-production editing.</b>
 					</p>
 
 					<p>
@@ -1057,7 +1092,7 @@
 					</p>
 
 					<p>
-						In the technical sheet you received in your packs we suggested the best free mobile apps for post-production editing, however, if you decide you really enjoy filmmaking, here are some free software that you may wish to experiment with in the future. These will need to be downloaded onto a laptop or computer!
+						In the technical sheet you received in your packs we suggested the best free mobile apps for post-production editing. However, if you decide you really enjoy filmmaking, here are some free softwares that you may wish to experiment with in the future. These will need to be downloaded onto a laptop or computer.
 					</p>
 
 					<!--					
@@ -1077,7 +1112,7 @@
 					-->
 					<br>
 					<ul><b>Free editing software:</b>
-						<li>IMovie (Mac)</li>
+						<li>iMovie (Mac)</li>
 							<img id="app-icons" src="imovie.png" alt="">
 						<li>Movavi (Windows)</li>
 						<img id="app-icons" alt="" src="https://img.pngio.com/video-editor-maker-4-movavi-video-editor-logo-png-video-editor-png-920_710.png">
@@ -1091,19 +1126,19 @@
 					<br>
 
 
-					<div id="extension-task">
+					<div id="extension-task" class="type-box">
 					<h2>Task 5: Create Your Film!</h2>
 					
 					<p>
-						Using a free app (we suggest IMovie on IPhone and FilmoraGo on Android) edit your clips and turn them into a short film based on your storyboard.
+						Using a free app (we suggest iMovie on iPhone and FilmoraGo on Android) edit your clips and turn them into a short film based on your storyboard.
 					</p>
 
 					<p>
-						Below is a basic tutorial using IMovie (FilmoraGo has similar functions!) Just see what you come out with, don’t forget, this is all about experimenting! No pressure!!!
+						Below is a basic tutorial using iMovie (FilmoraGo has similar functions!) Don’t forget, this is all about experimenting. Just see what you come up with! 
 					</p>
 
 					<p>
-						<b>Once you are finished creating your film please send it to us, instructions on how to do this can be found on your technical sheet!</b>
+						<b>Once you have finished creating your film please send it to us. Instructions on how to do this can be found on your technical sheet.</b>
 					</p>
 
 					<div style="text-align: center;">
@@ -1113,10 +1148,12 @@
 
 					<br>
 
+					<p><b>**Important note:**</b> for copyright reasons please avoid using music or sounds from the internet in your films. We will be exploring how to access royalty free music and sounds later this week. For now, if you would like an audio track, please complete the extension task! You can also use any sounds provided by your editing app.</p>
+
 					<div id="tasks">
 
 					<p style="font-size: 24px;">
-						<b>Extension:</b> Create a Simple Accompanying Audio Track for Your Film.<br><span style="font-size: 20px;"> As demonstrated in Kate's tutorial use your filmmaking app to add a simple audio track to your film. <b>Here are some ideas for the content of your audio track:</b></span> 
+						<b>Extension:</b> Create a Simple Accompanying Audio Track for Your Film.<br><span style="font-size: 20px;"> As demonstrated in Kate's tutorial, use your filmmaking app to add a simple audio track to your film. <b>Here are some ideas for the content of your audio track:</b></span> 
 					</p>
 
 					<ul style="margin: -10px 0px 30px 40px;">
@@ -1129,7 +1166,7 @@
 					<p>
 						(You may choose to combine multiple points if you like!)</p>
 					<p>
-						<b>Note:</b> Remember to limit background noise, try to record in a quiet space so the neighbours dog barking doesn't ruin your audio! 
+						<b>Note:</b> Remember to limit background noise, try to record in a quiet space so the neighbour's dog barking doesn't ruin your audio! 
 					</p>
 					
 					</div>	
@@ -1139,7 +1176,7 @@
 					</p>
 <br>
 					<p>
-						Here is a finished example, it's a little longer than required, but it gives you an idea of what's possible. We recommend quality over quantity, a concise 30 sec - 1 min film can be very effective at telling a story.
+						Here is a finished example. It is a little longer than required, but it gives you an idea of what's possible. We recommend quality over quantity, a concise 30 second - 1 minute film can be very effective at telling a story.
 					</p>
 
 					<div style="text-align: center;">
@@ -1169,7 +1206,7 @@
 						<img id="hand-phone" src="hand-phone.png" alt=""> 
 					</div>
 
-					<div id="final-message">
+					<div id="final-message" class="type-box">
 						
 						<p><b>Arts Award Checklist:</b></p>
 						
@@ -1188,11 +1225,11 @@
 
 				
 
-					<div id="note">
-						<p style="background-color:#ffe6f2; padding-top: 10px">
-						Remember to keep everything in your pack safe after this workshop as you will need it all for tomorrow :)
+					<div id="note" >
+						<p class="type-box" style="background-color:#ffe6f2; padding-top: 10px">
+						Remember to keep everything in your pack safe after this workshop as you will need it all for tomorrow.
 						<br><br>
-						Finally, don't forget you can revisit the lessons or tasks another time by using the link and password provided!
+						Finally, don't forget you can revisit the lessons or tasks another time by using the link and password provided.
 
 						<br><br><br><br>
 						<i>

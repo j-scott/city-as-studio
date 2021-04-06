@@ -10,9 +10,36 @@
 </head>
 
 <body>
+	> 	
+
+		<div style="float: right;">
+			Accessibility Colours:
+			<button type="button" onclick="history.go(0)">Normal</button>
+
+		   
+			<button type="button" onclick="myFunction()">Yellow</button>
+
+				<script>
+				function myFunction() {
+				  document.body.style.backgroundColor = "yellow";
+
+				  var x = document.getElementsByClassName("description");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "yellow";
+				  }
 
 
-    ><br>><br>><br>>
+			document.getElementById("nav-bar").style.background = "#ffff99"; 
+
+			}
+			</script>
+		</div>
+
+<br>>
+
+    <br>><br>>
+
 	<header>
 	
 				<h1 class="typewriter">
@@ -25,11 +52,11 @@
 	<main>
 
 		<h2>Your Brief:</h2> 
-			<p id="paragraphs">Welcome to the City as Studio online residency. As a City as Studio young artist, you have been commissioned by Modern Art Oxford to collaboratively produce a short art film in response to the life and professional practice of American artist and educator, Ruth Asawa (born 1926 – died 2013).</p>
+			<p id="paragraphs">Welcome to the City as Studio online residency. As a City as Studio young artist, you have been commissioned by Modern Art Oxford to collaboratively produce a short art film in response to the life and work of American artist and educator, Ruth Asawa (born 1926 – died 2013).</p>
 
-			<p id="paragraphs">During the residency you will take part in a series of Zoom sessions with professional artists in Oxford and complete the online, digital workshops that will guide you through the process of experimenting with film.</p>
+			<p id="paragraphs">During the residency you will take part in a series of online sessions with professional artists based in Oxford and complete the digital workshops that will guide you through the different ways you can experiment with film.</p>
 
-			<p id="paragraphs">These creative activities will help you to explore new ideas to create original, impactful work. You will be encouraged to consider the world around you, the current political concerns impacting you today, and the vital role creativity plays in society. Take your time, be playful and question yourself and your creative approaches.</p>
+			<p id="paragraphs">These creative activities will help you to explore new ideas to create original, impactful work. You will be encouraged to consider the world around you, the current political concerns impacting you today, and the vital role creativity plays in society. Take your time, be playful, and question yourself and your creative approaches.</p>
 
 
 ><br>>
@@ -38,7 +65,7 @@
 		<h3>By the end of this City as Studio residency you will have produced a series of film experiments, and will be able to answer these questions: </h3>
 		<br>
 		<ul id="bulletpoints">
-			<li>How professional artists make creative, unique films?</li> 
+			<li>How do professional artists make creative, unique films?</li> 
 			<li>What artistic and technical skills go into filmmaking?</li> 
 			<li>How do art films develop from a creative idea to being shown to public audiences?</li> 
 		</ul>
@@ -47,10 +74,10 @@
 	><br>>
 
 
-	<nav>
+	<nav id="nav-bar">
 		<h2 style="margin: 0px;"><u>Links</u></h2>
 
-		<p id="paragraphs">Note: All sites are optimised for use on a laptop or desktop device.</p>
+		<p id="paragraphs">Note: All sites are optimised for use on a laptop or desktop device. This means that you’ll get the best experience if you join the residency from a laptop or desktop computer. However, the webpages will still work if you do need to join from a phone or tablet.</p>
 
 <!-- 		<h2 style="font-size: 30px;">COMING SOON!</h2> -->
 <!-- Monday 	-->
@@ -103,12 +130,12 @@
 
 <section>
 
-	<h2>Meet the Team Behind CAS 2021:</h2>
+	<h2>Meet the Team Behind City as Studio (CAS) 2021:</h2>
 	
 	<div class="projects">
  
 		<div class="project-tile" id="kate"> 
-			<div id="description">
+			<div class="description">
 				<h4><b>KATE MAHONY:</b> Lead Artist</h4>
 				<p id="description-para">Kate is in her third year as the lead artist for CAS and is a Fine Art lecturer at Oxford Brookes University.</p>
 				<p id="description-para">Her art practice questions the term 'performance' by using DIY processes to form a minimalist take on the subject.</p>	
@@ -117,7 +144,7 @@
 		
 		<div class="project-tile" id="james"> 
 
-			<div id="description">
+			<div class="description">
 				<h4><b>JAMES SCOTT:</b> Assistant Artist</h4>
 				<p id="description-para">James is a practicing visual artist and has created the digital package for this project.</p>
 				<p id="description-para">He is a recent graduate of the Ruskin School of Art and is interested in how viewers interact with situations.</p>	
@@ -125,23 +152,35 @@
 		</div>
 		
 		<div class="project-tile" id="poppy"> 
-			<div id="description">
+			<div class="description">
 				<h4><b>Poppy Tibbitts:</b> Sound Artist</h4>
 				<p id="description-para">Poppy is a musician and artist with a practice based in sound, broadcasting and creative learning. </p>
 				<p id="description-para">She will be leading a CAS workshop to create the soundtrack for the final residency film.</p>	
 			</div>
 		</div>
 		
+		<div class="project-tile" id="rachel"> 
+
+			<div class="description">
+				<h4><b>Rachel:</b></h4>
+				<p id="description-para" style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+		</div>
+
+	</div>
+
+		<br>
 		<div class="project-tile" id="holly_sara"> 
 
-			<div id="description">
+			<div class="description">
 				<h4><b>Sara and Holly:</b></h4>
 				<p id="description-para" style="margin-top: 5px;">Sara (Curator of Creative Learning) and Holly (Creative Learning Coordinator) are part of the Creative Learning team at MAO. Our programme is designed to engage visitors of all ages to explore creative processes and enrich knowledge around contemporary visual culture.
-</p>
+				</p>
 			</div>
 		</div>
 		
-	</div>
+
 
     
 </section>
