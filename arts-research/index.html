@@ -17,6 +17,44 @@
 </head>
 
 <body>
+<!-- Accessibility colours -->
+
+			<div style="position: relative; top: 30px; margin: auto; max-width: 1100px; text-align: right;">
+
+			Page Colour:
+			<button type="button" style="font-family: monospace; font-size: 16px; background-color: orange;" onclick="history.go(0)">Default</button>
+
+		   
+			<button type="button" style="font-family: monospace; font-size: 16px; background-color: #fad980;" onclick="myFunction()">Yellow</button>
+
+				<script>
+				function myFunction() {
+		
+					  
+
+				  var x = document.getElementsByClassName("type-box-light");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#fff1d2";
+				  }
+
+				  var x = document.getElementsByClassName("type-box-dark");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#fad980";
+				  }
+
+				  var x = document.getElementsByClassName("main");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#fad980";
+				  }
+
+				document.getElementById("passw").style.background = "#fff1d2"; 
+
+			}
+			</script>
+		</div>
 
 <!-- PASSWORD -->
 	
@@ -38,7 +76,7 @@
 
 
 
- 	<main id="hiddendiv"> <!--INSERT:  id="hiddendiv" INTO "MAIN" -->
+ 	<main id="hiddendiv" class="main"> <!--INSERT:  id="hiddendiv" INTO "MAIN" -->
 	
 
 	<header>
@@ -47,7 +85,7 @@
 	</header>
 
 
-				<section id="task-one">
+				<section id="task-one" class="type-box-light">
 					
 					<h2>Arts Research</h2>
 				
@@ -70,7 +108,7 @@
 						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2n93YOrF6A8JJ9QgjplCiOWmZ_oLBgzO_wfzRMUUycKKx1g/viewform?embedded=true" width="1100" height="4000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 					<br><br><br>	
 
-					<ol id="plain-text-q's"><br><u>QUESTIONS IN PLAIN TEXT:</u>
+					<ol id="plain-text-q's" class="type-box-dark"><br><u>QUESTIONS IN PLAIN TEXT:</u>
 						<br>
 						<li>Who did you meet from the Modern Art Oxford team today? What were their job roles?</li>
 						<li>Did you know all of these different roles existed? If not, which ones surprised you?</li>

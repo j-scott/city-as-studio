@@ -17,11 +17,11 @@
 			Page Colour:
 			<button type="button" style="font-family: monospace; font-size: 16px; background-color: #F5F5F5;" onclick="history.go(0)">Default</button>
 
-		   
-			<button type="button" style="font-family: monospace; font-size: 16px; background-color: #fad980;" onclick="myFunction()">Yellow</button>
+			<button id="yellow" type="button" style="font-family: monospace; font-size: 16px; background-color: #fad980;" onclick="myFunction()">Yellow</button>
 
 				<script>
-				function myFunction() {
+
+				function myFunction(yellow) {
 				  document.body.style.backgroundColor = "#fad980";
 
 				  var x = document.getElementsByClassName("description");
@@ -30,11 +30,14 @@
 				    x[i].style.backgroundColor = "#fad980";
 				  }
 
+				document.getElementById("nav-bar").style.background = "#fff1d2"; 
 
-			document.getElementById("nav-bar").style.background = "#ffeab3"; 
+				}
 
-			}
-			</script>
+
+				</script>
+
+
 		</div>
 
  <div style="position: absolute; top: 0px;"> ><br>><br>> </div>
