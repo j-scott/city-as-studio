@@ -18,6 +18,45 @@
 
 <body>
 
+<!-- Accessibility colours -->
+
+			<div style="position: relative; top: 30px; margin: auto; max-width: 1100px; text-align: right;">
+
+			Page Colour:
+			<button type="button" style="font-family: monospace; font-size: 16px; background-color: orange;" onclick="history.go(0)">Default</button>
+
+		   
+			<button type="button" style="font-family: monospace; font-size: 16px; background-color: #fad980;" onclick="myFunction()">Yellow</button>
+
+				<script>
+				function myFunction() {
+		
+					  
+
+				  var x = document.getElementsByClassName("type-box-light");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#ffeab3";
+				  }
+
+				  var x = document.getElementsByClassName("type-box-dark");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#fad980";
+				  }
+
+				  var x = document.getElementsByClassName("main");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#fad980";
+				  }
+
+				document.getElementById("passw").style.background = "#ffeab3"; 
+
+			}
+			</script>
+		</div>
+
 <!-- PASSWORD -->
 	
 		<div id="passw">
@@ -38,7 +77,7 @@
 
 
 
- 	<main id="hiddendiv"> <!--INSERT: id="hiddendiv"  INTO "MAIN" -->
+ 	<main id="hiddendiv" class="main"> <!--INSERT: id="hiddendiv"  INTO "MAIN" -->
 
 	<header>
 				<h1>Workshop 2: <br> <b>Text and Image - Creating Meaning </b>
@@ -72,7 +111,7 @@
 								<br>
 				</div>
 
-				<section id="goals">
+				<section id="goals" class="type-box-light">
 				<p>
 					<b>The goal of this workshop is to create your own protest placard and experiment with stop motion animation. </b>
 				</p>
@@ -114,7 +153,7 @@
 								<br>
 				</div>
 
-				<section id="task-one">
+				<section id="task-one" class="type-box-light">
 					<h2>Task 1: Subject Matter Collection</h2>
 					<p>
 						<b>Part. I</b> Cut out some images and text from the newspapers and magazines in your pack that relate to your concerns and ideas from yesterday, and put them aside for later. Feel free to use any other newspapers or magazines you have lying around. 
@@ -162,7 +201,7 @@
 								<br>
 				</div>
 
-				<section id="task-two">
+				<section id="task-two" class="type-box-light">
 					<h2>Task 2: Make a Placard!</h2>
 					
 					<p>Take inspiration from the artists you have been shown today (or others that interest you) and create a placard stating your message as a citizen of the universe.
@@ -454,7 +493,7 @@
 								<br>
 				</div>
 
-				<section id="task-three">
+				<section id="task-three" class="type-box-light">
 					<h2>Task 3: Make Your Own Stop Motion Animation</h2>
 					
 					
@@ -504,7 +543,7 @@
 						<img id="hand-phone" src="hand-phone.png" alt=""> 
 					</div>
 
-					<div id="final-message">
+					<div id="final-message" class="type-box-light">
 						
 						<p><b>Arts Award Checklist:</b></p>
 						
@@ -522,7 +561,7 @@
 					</div>
 
 					<div id="note">
-						<p style="background-color:#ffdfbf; padding-top: 10px">Remember you can access this site anytime to revisit any of the lessons or tasks by using the link and password provided.
+						<p style="background-color:#ffdfbf; padding-top: 10px" class="type-box-light">Remember you can access this site anytime to revisit any of the lessons or tasks by using the link and password provided.
 
 						<br><br><br><br>
 						<i>

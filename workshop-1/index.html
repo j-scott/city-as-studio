@@ -33,40 +33,46 @@
 
 <body>
 
+<!-- Accessibility colours -->
 
+			<div style="position: relative; top: 30px; margin: auto; max-width: 1100px; text-align: right;">
 
-<!-- PASSWORD -->
-
-					<div style="position: relative; top: 34px; margin: auto; width: 1100px; text-align: right;">
 			Page Colour:
 			<button type="button" style="font-family: monospace; font-size: 16px; background-color: #ff99cc;" onclick="history.go(0)">Default</button>
 
 		   
-			<button type="button" style="font-family: monospace; font-size: 16px; background-color: yellow;" onclick="myFunction()">Yellow</button>
+			<button type="button" style="font-family: monospace; font-size: 16px; background-color: #fad980;" onclick="myFunction()">Yellow</button>
 
 				<script>
 				function myFunction() {
 		
 					  
 
-				  var x = document.getElementsByClassName("type-box");
+				  var x = document.getElementsByClassName("type-box-light");
 				  var i;
 				  for (i = 0; i < x.length; i++) {
-				    x[i].style.backgroundColor = "#ffff99";
+				    x[i].style.backgroundColor = "#ffeab3";
+				  }
+
+				  var x = document.getElementsByClassName("type-box-dark");
+				  var i;
+				  for (i = 0; i < x.length; i++) {
+				    x[i].style.backgroundColor = "#fad980";
 				  }
 
 				  var x = document.getElementsByClassName("main");
 				  var i;
 				  for (i = 0; i < x.length; i++) {
-				    x[i].style.backgroundColor = "yellow";
+				    x[i].style.backgroundColor = "#fad980";
 				  }
-document.getElementById("passw").style.background = "#ffff99"; 
+
+				document.getElementById("passw").style.background = "#ffeab3"; 
 
 			}
 			</script>
 		</div>
 
-
+<!-- PASSWORD -->
 
 		<div id="passw">
 		    <div>    
@@ -188,7 +194,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				<br>
 			</div>
 
-				<section id="ruth-asawa" class="type-box">
+				<section id="ruth-asawa" class="type-box-light">
 					<h3>RUTH ASAWA: "Citizen of the Universe"</h3>
 					
 
@@ -270,7 +276,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 
-				<section id="task-one" class="type-box">
+				<section id="task-one" class="type-box-light">
 
 					
 					<h2>Task 1: Mind Mapping</h2>
@@ -318,7 +324,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 
-				<section id="task-two" class="type-box">
+				<section id="task-two" class="type-box-light">
 					<h2>Task 2: Object Collection</h2>
 					<p>Find an object or a series of objects that relate to a few ideas in your mind maps.</p>
 				
@@ -398,7 +404,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				<h3>Shot Sizes:</h3>
 <!--Very Long Shot 500623528-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<br>
 							<h4>Very Long Shot (VLS)</h4>
 							Introduces us to the world (the home/city/landscape)
@@ -437,7 +443,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			                                  });
 			                              });
 			                          </script>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<h4>Long Shot (LS)</h4>
 								 Takes in and introduces the whole person or object in the environment.
 								 <br><br><br>
@@ -446,7 +452,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--Mid Shot 500623421-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<br>
 							<h4>Mid Shot (MS)</h4>
 							Film your object from the middle upwards (i.e. waist up!)
@@ -485,7 +491,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			                              });
 			                          </script>
 						
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<br>
 							<h4>Close Up</h4>
 							Try and capture as much detail as possible!
@@ -496,7 +502,7 @@ document.getElementById("passw").style.background = "#ffff99";
 
 
 <!--Lenses-->
-				<div id="lenses" class="type-box">
+				<div id="lenses" class="type-box-light">
 								
 					<h3>A Bonus Note On Lenses:</h3>
 					<br>
@@ -534,7 +540,7 @@ document.getElementById("passw").style.background = "#ffff99";
 
 	<!--Insert Shot 491750506-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<h4>Insert Shot</h4>
 							An Insert Shot focuses the viewer on a specific detail of the scene. 
 							<br><br>
@@ -550,7 +556,7 @@ document.getElementById("passw").style.background = "#ffff99";
 							<iframe src="https://player.vimeo.com/video/491750409?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" style="background-image: url(eye1.png);background-size: 640px 360px;"
 							width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 						</div>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<h4>Eye Level Shot</h4>
 							The camera is placed at the subject's height as if the subject is looking at the lens.
 							<br><br>
@@ -560,7 +566,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--High Angle Position 491750428-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<h4>High Angle Position</h4>
 							The camera is above the subject, looking down.
 							<br><br>
@@ -575,7 +581,7 @@ document.getElementById("passw").style.background = "#ffff99";
 						<div id="gif-left">
 							<iframe src="https://player.vimeo.com/video/491750675?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" style="background-image: url(low1.png);background-size: 640px 360px;"width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 						</div>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<h4>Low Angle Position</h4>
 							The camera is placed below the objects 'eyes', looking up at them.
 							<br><br>
@@ -584,7 +590,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--Dutch Angle Position 491750314-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<h4>Dutch Angle Position</h4>
 							The camera is leant sideways, transforming the horizon into a slope.
 							<br><br>
@@ -602,7 +608,7 @@ document.getElementById("passw").style.background = "#ffff99";
 							<iframe src="https://player.vimeo.com/video/491750867?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=1&autopause=0" style="background-image: url(ots1.png);background-size: 640px 360px;"
 							width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 						</div>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<h4>Over The Shoulder (OTS)</h4>
 							A shot of someone or something taken from the perspective of the shoulder of another person or object.
 							<br><br>
@@ -611,7 +617,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--Point of View (POV) 491751309-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							
 							<h4>Point Of View (POV)</h4>
 							A method of shooting a scene or film that expresses the attitude of the director or writer towards the characters or objects within the scene. <br><br>It is often filmed from eye level, as if from someone's viewpoint.
@@ -644,7 +650,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 				<section id="storyboards">
-				<div id="light-grey-section" class="type-box">
+				<div id="light-grey-section" class="type-box-light">
 					<h2 id="lesson-head"><b>Storyboarding</b></h2>
 
 					<div>
@@ -711,7 +717,7 @@ document.getElementById("passw").style.background = "#ffff99";
 							style="background-image: url(pan1.png);background-size: 640px 360px;"
 							width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>	
 						</div>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<h4>Pan</h4>
 							The camera swings on its horizontal axis, similar to moving your head from side to side. 
 							<br><br>
@@ -720,7 +726,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--Tilt 491751528-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<br>
 							<h4>Tilt</h4>
 							Used to show the vertical space often hidden by the landscape framing of films.
@@ -739,7 +745,7 @@ document.getElementById("passw").style.background = "#ffff99";
 							style="background-image: url(tracking1.png);background-size: 640px 360px;"
 							width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>	
 						</div>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<h4>Tracking Shot</h4>
 							The camera is moved to follow the action. 
 							<br><br>
@@ -749,7 +755,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--Crane 491750122-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<h4>Crane</h4>
 							A mechanical device is used to 'fly' the camera through space.
 							<br><br>
@@ -768,7 +774,7 @@ document.getElementById("passw").style.background = "#ffff99";
 							style="background-image: url(zoom1.png);background-size: 640px 360px;"
 							width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>	
 						</div>
-						<div id="gif-text-right">
+						<div id="gif-text-right" class="type-box-light">
 							<br>
 							<h4>Zoom</h4>
 							Used to get nearer to a point of interest in a scene, or for a disorientating effect.
@@ -776,7 +782,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				</div>
 	<!--Pull Focus 491751423-->
 				<div id="gif-section">
-						<div id="gif-text-left">
+						<div id="gif-text-left" class="type-box-light">
 							<h4>Pull Focus</h4>
 							The focus of the camera is “pulled”, changing the point of interest in space. Often used to move between two characters or objects. 
 							<br><br>
@@ -800,7 +806,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 					<br>
-				<div id="light-grey-section" class="type-box">
+				<div id="light-grey-section" class="type-box-light">
 					<p id="Hitchcock">It is said that the Director Alfred Hitchcock considered a film done and dusted once he’d completed his storyboard, and that he saw shooting the film itself as a mere technicality. </p>
 
 					<p id="Hitchcock">While this may read like a folk tale, the reality is that Hitchcock rarely rushed to get his camera out on set to capture spontaneous moments. Instead, he preferred to stage his shots well in advance of production.</p> 
@@ -819,17 +825,19 @@ document.getElementById("passw").style.background = "#ffff99";
 				<br>
 			</div>
 
-				<section id="billboard-test" class="type-box">
+				<section id="billboard-test" class="type-box-light">
 					<h2>The Billboard Test: <b>What's Your Digital Footprint?</b></h2>
 
 					<p>By this point you are probably ready to jump into the process of creating your own films. But there is just one more thing that we need to run through...</p>
-<div id="voice-note">
+					
+					<div id="voice-note">
+
 					<audio id="" controls>
   					<source src="billboard.mp3" type="audio/mpeg" /> 
 					</audio> (Text version just below!)
 					</div>
 
-					<div id="test">
+					<div id="test" class="type-box-dark">
 					<p>You will be creating digital content that is suited to being posted on the internet's many digital platforms.</p>
 					<p><b>However, before posting anything online, you should always think about:</b></p>
 					<ul>
@@ -861,12 +869,12 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 
-				<section id="task-three" class="type-box">
+				<section id="task-three" class="type-box-light">
 					<h2>Task 3: Storyboard Your Short Film</h2>
 					<p><b>The Task:</b> Storyboard a short film composed of <b>six shots</b> that examine the objects you selected earlier. Think about how you could use these items to explore the themes and ideas from your mind maps.</p>
 					<p>Use the template in your zine to create your storyboard. </p>
 
-					<div style="background-color: #ffe6f2; padding: 10px; margin: 10px;">
+					<div style="background-color: #ffe6f2; padding: 10px; margin: 10px;" class="type-box-dark">
 						<p><b>Example:</b></p>
 					<img id="example-storyboard" src="storyboard.jpg" alt="Example of a completed storyboard for the task. Each shot is sketched and described by text.">
 					</div>
@@ -933,7 +941,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 				<section id="smartphone-filming">
-<div id="light-grey-section" class="type-box">
+<div id="light-grey-section" class="type-box-light">
 					<h2 id="lesson-head">Filming with a Smartphone:</h2>
 					
 					
@@ -1027,7 +1035,7 @@ document.getElementById("passw").style.background = "#ffff99";
 			</div>
 
 
-					<section id="task-four" class="type-box">
+					<section id="task-four" class="type-box-light">
 					<h2>Task 4: Follow Your Storyboard and Film Your Objects </h2>
 
 					<p>
@@ -1079,7 +1087,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				<br>
 			</div>
 
-				<section id="post-production" class="type-box">
+				<section id="post-production" class="type-box-light">
 					<h2>Post-Production Editing</h2>
 
 					<br><br>
@@ -1126,7 +1134,7 @@ document.getElementById("passw").style.background = "#ffff99";
 					<br>
 
 
-					<div id="extension-task" class="type-box">
+					<div id="extension-task" class="type-box-light">
 					<h2>Task 5: Create Your Film!</h2>
 					
 					<p>
@@ -1150,7 +1158,7 @@ document.getElementById("passw").style.background = "#ffff99";
 
 					<p><b>**Important note:**</b> for copyright reasons please avoid using music or sounds from the internet in your films. We will be exploring how to access royalty free music and sounds later this week. For now, if you would like an audio track, please complete the extension task! You can also use any sounds provided by your editing app.</p>
 
-					<div id="tasks">
+					<div id="tasks" class="type-box-dark">
 
 					<p style="font-size: 24px;">
 						<b>Extension:</b> Create a Simple Accompanying Audio Track for Your Film.<br><span style="font-size: 20px;"> As demonstrated in Kate's tutorial, use your filmmaking app to add a simple audio track to your film. <b>Here are some ideas for the content of your audio track:</b></span> 
@@ -1206,7 +1214,7 @@ document.getElementById("passw").style.background = "#ffff99";
 						<img id="hand-phone" src="hand-phone.png" alt=""> 
 					</div>
 
-					<div id="final-message" class="type-box">
+					<div id="final-message" class="type-box-light">
 						
 						<p><b>Arts Award Checklist:</b></p>
 						
@@ -1226,7 +1234,7 @@ document.getElementById("passw").style.background = "#ffff99";
 				
 
 					<div id="note" >
-						<p class="type-box" style="background-color:#ffe6f2; padding-top: 10px">
+						<p class="type-box-light" style="background-color:#ffe6f2; padding-top: 10px">
 						Remember to keep everything in your pack safe after this workshop as you will need it all for tomorrow.
 						<br><br>
 						Finally, don't forget you can revisit the lessons or tasks another time by using the link and password provided.
